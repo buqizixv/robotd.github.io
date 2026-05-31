@@ -201,7 +201,7 @@ function renderFooter() {
     '<div class="footer-col"><strong>' + t('footer_legal') + '</strong>' +
       '<a href="/about.html">' + t('nav_about') + '</a>' +
       '<a href="/privacy.html">' + t('nav_privacy') + '</a>' +
-      '<a href="terms.html">Terms of Service</a>' +
+      '<a href="/terms.html">Terms of Service</a>' +
     '</div></div>' +
     '<div class="footer-bottom"><p>' + t('footer_copyright') + '</p></div></footer>';
 }
@@ -607,6 +607,8 @@ document.addEventListener('click', function(e) {
   if (!link) return;
   var href = link.getAttribute('href');
   if (!href || href.startsWith('http') || href.startsWith('#') || href.startsWith('javascript') || link.getAttribute('download') || link.getAttribute('target') === '_blank') return;
+  // Let standalone .html pages navigate normally (about, privacy, terms, etc.)
+  if (href.endsWith('.html')) return;
   // Internal link — handle via SPA
   e.preventDefault();
   navigateTo(href);
