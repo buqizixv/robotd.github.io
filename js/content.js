@@ -14,6 +14,20 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "1x-neo-mass-production-2026",
+    date: "2026-05-31",
+    category: "humanoid",
+    featured: true,
+    en: {
+      title: "1X's NEO Goes Mass-Production: The First US Humanoid Robot Factory Is Here, and It Changes Everything",
+      summary: "1X Technologies opens the first vertically integrated humanoid robot factory in California, shipping 10,000 NEO units with a self-learning World Model at $20,000 each."
+    },
+    zh: {
+      title: "1X NEO 人形机器人量产启幕：美国首座人形机器人工厂投产，自主学习的时代开始了",
+      summary: "1X Technologies 在加州启动全球首座全垂直整合的人形机器人工厂，年产万台 NEO，搭载世界模型实现自主学习，售价 2 万美元起。"
+    }
+  },
+  {
     slug: "duke-argus-omnidirectional-robot-2026",
     date: "2026-05-31",
     category: "research",
