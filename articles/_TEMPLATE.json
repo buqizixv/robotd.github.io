@@ -1,0 +1,20 @@
+{
+  "slug": "article-slug-here",
+  "date": "2026-05-01",
+  "category": "humanoid",
+  "featured": false,
+  "en": {
+    "title": "Article Title in English",
+    "summary": "One-sentence summary for SEO meta description, max 160 chars.",
+    "keywords": "keyword1, keyword2, specific product name, company name",
+    "imageAlt": "Descriptive alt text for the article image",
+    "body": "<p>First paragraph — hook the reader, establish why this matters.</p><h2>Background</h2><p>Context paragraph. 1000+ words total.</p><h2>Key Details</h2><p>Main content...</p><h2>Industry Impact</h2><p>Analysis and implications...</p><h2>What's Next</h2><p>Forward-looking conclusion.</p>"
+  },
+  "zh": {
+    "title": "文章中文标题",
+    "summary": "用于 SEO 的一句话摘要，最多 160 字。",
+    "keywords": "关键词1, 关键词2, 具体产品名称, 公司名称",
+    "imageAlt": "文章图片的描述性替代文本",
+    "body": "<p>开头段落——吸引读者，说明为什么重要。</p><h2>背景</h2><p>背景段落。总共 1000+ 字。</p><h2>关键细节</h2><p>主要内容...</p><h2>行业影响</h2><p>分析与影响...</p><h2>下一步</h2><p>展望性结论。</p>"
+  }
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url><loc>https://robotd.net/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+
+  <url><loc>https://robotd.net/category/humanoid/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/category/industrial/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/category/ai-robotics/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/category/drones/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/category/medical/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/category/research/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://robotd.net/article/duke-argus-omnidirectional-robot-2026/</loc><lastmod>2026-05-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/duke-argus-omnidirectional-robot-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/duke-argus-omnidirectional-robot-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/aquila-earth-laser-power-2026/</loc><lastmod>2026-05-30</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/aquila-earth-laser-power-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/aquila-earth-laser-power-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/</loc><lastmod>2026-05-30</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/nvidia-gtc-2026-40t-robotics/</loc><lastmod>2026-05-30</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/nvidia-gtc-2026-40t-robotics/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/nvidia-gtc-2026-40t-robotics/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/hyundai-atlas-worldcup-2026/</loc><lastmod>2026-05-29</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/hyundai-atlas-worldcup-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/hyundai-atlas-worldcup-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/engineai-humanoid-factory-2026/</loc><lastmod>2026-05-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/engineai-humanoid-factory-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/engineai-humanoid-factory-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/byd-humanoid-robot-2026/</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/genesis-ai-gene-26-5/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/genesis-ai-gene-26-5/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/genesis-ai-gene-26-5/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/mitsubishi-physical-ai-2026/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/mitsubishi-physical-ai-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/mitsubishi-physical-ai-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/wing-tokyo-drone-network-2026/</loc><lastmod>2026-05-25</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/wing-tokyo-drone-network-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/wing-tokyo-drone-network-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/micro-robots-drug-delivery/</loc><lastmod>2026-05-20</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/micro-robots-drug-delivery/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/micro-robots-drug-delivery/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/figure-02-bmw-production/</loc><lastmod>2026-05-18</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/figure-02-bmw-production/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/figure-02-bmw-production/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/da-vinci-xi-successor/</loc><lastmod>2026-05-12</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/da-vinci-xi-successor/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/da-vinci-xi-successor/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/unitree-gd01-mecha/</loc><lastmod>2026-05-12</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/unitree-gd01-mecha/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/unitree-gd01-mecha/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/tesla-optimus-gen3-update/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/tesla-optimus-gen3-update/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/tesla-optimus-gen3-update/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/deepmind-rt-3/</loc><lastmod>2026-05-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/deepmind-rt-3/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/deepmind-rt-3/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/mit-soft-actuator-breakthrough/</loc><lastmod>2026-04-30</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/mit-soft-actuator-breakthrough/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/mit-soft-actuator-breakthrough/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/abb-collaborative-robots-2026/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/abb-collaborative-robots-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/abb-collaborative-robots-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/amazon-sparrow-warehouse/</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/amazon-sparrow-warehouse/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/amazon-sparrow-warehouse/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/nvidia-groot-2026/</loc><lastmod>2026-04-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/nvidia-groot-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/nvidia-groot-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/zipline-drone-delivery-2026/</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/zipline-drone-delivery-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/zipline-drone-delivery-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/dji-dock-3/</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/dji-dock-3/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/dji-dock-3/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/boston-dynamics-atlas-electric-update/</loc><lastmod>2026-02-20</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/boston-dynamics-atlas-electric-update/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/boston-dynamics-atlas-electric-update/?lang=zh"/>
+  </url>
+
+</urlset>
