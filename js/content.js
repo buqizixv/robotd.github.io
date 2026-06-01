@@ -28,6 +28,20 @@ const ARTICLE_MANIFEST = [
     }
   },
   {
+    slug: "agility-digit-warehouse-2026",
+    date: "2026-06-01",
+    category: "humanoid",
+    featured: true,
+    en: {
+      title: "Agility's Digit Is the Only Humanoid Robot Actually Making Money in Warehouses Right Now",
+      summary: "With 100,000+ totes moved at GXO, seven units deployed at Toyota Canada under a RaaS contract, and a cooperatively safe Digit coming late 2026, Agility is pulling ahead in the warehouse humanoid race."
+    },
+    zh: {
+      title: "Digit 人形机器人悄然占领仓库：10 万次搬运之后，丰田开始付钱了",
+      summary: "当其他人形机器人还在拍演示视频时，Agility 的 Digit 已在 GXO 仓库搬运超过 10 万个周转箱，并在丰田加拿大工厂签下商业合同。2026 年底「协作安全」版本将彻底打开仓库部署空间。"
+    }
+  },
+  {
     slug: "1x-neo-mass-production-2026",
     date: "2026-05-31",
     category: "humanoid",
