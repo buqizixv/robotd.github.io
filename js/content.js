@@ -14,6 +14,20 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "openai-robotics-2026",
+    date: "2026-06-01",
+    category: "ai-robotics",
+    featured: true,
+    en: {
+      title: "OpenAI Enters the Humanoid Race: Sam Altman's Bet on a Robot in Every Home",
+      summary: "On June 1, 2026, OpenAI announced a new robotics division and began hiring hardware engineers — the same day NVIDIA unveiled its open reference humanoid. Two AI giants crossed the physical divide simultaneously."
+    },
+    zh: {
+      title: "OpenAI 正式入局人形机器人：奥特曼用一则招聘宣告物理世界争夺战开幕",
+      summary: "2026 年 6 月 1 日，OpenAI 宣布成立机器人部门并大规模招聘硬件工程师；同日，英伟达发布开源参照人形机器人。两家 AI 巨头同一天跨越虚实分界。"
+    }
+  },
+  {
     slug: "1x-neo-mass-production-2026",
     date: "2026-05-31",
     category: "humanoid",
