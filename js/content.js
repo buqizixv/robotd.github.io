@@ -14,6 +14,21 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "apptronik-apollo-warehouse-2026",
+    date: "2026-06-02",
+    category: "humanoid",
+    featured: true,
+    en: {
+      title: "The Pragmatist's Humanoid: Why Mercedes, Google, and Deere Are Betting on Apptronik's Apollo",
+      summary: "Apptronik's Apollo humanoid deployed at Mercedes-Benz and GXO in 2026, backed by Google, Deere, and $935M. The NASA-born robot bets pragmatism over spectacle."
+    },
+    zh: {
+      title: "Apollo 落地：人形机器人赛道上，那个最务实的选手悄悄攒了一手好牌",
+      summary: "2026 年，Apptronik 的 Apollo 人形机器人在奔驰和 GXO 仓库实地部署，背后是谷歌、奔驰、约翰迪尔和 9.35 亿美元融资。这家 NASA 技术转化的创业公司正在用人形机器人的务实路线赢得工业界的信任。"
+    }
+  },
+
+  {
     slug: "openai-robotics-2026",
     date: "2026-06-01",
     category: "ai-robotics",
