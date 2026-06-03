@@ -29,6 +29,36 @@ const ARTICLE_MANIFEST = [
   },
 
   {
+    slug: "nvidia-unitree-open-humanoid-2026",
+    date: "2026-06-02",
+    category: "humanoid",
+    featured: true,
+    en: {
+      title: "NVIDIA, Unitree, and Sharpa Launch the First Open Humanoid Robot Reference Platform",
+      summary: "At Computex 2026, NVIDIA partnered with China's Unitree Robotics and Singapore's Sharpa to release the Isaac GR00T Reference Humanoid — an open, full-stack platform for academic research that could become the Android of humanoid robotics."
+    },
+    zh: {
+      title: "英伟达、宇树、Sharpa 联合发布首个开源人形机器人参考平台：机器人界的 Android 时刻",
+      summary: "2026 年 6 月 1 日，英伟达在 Computex Taipei 宣布与宇树科技和新加坡 Sharpa 合作，推出 Isaac GR00T 参考人形机器人平台——首个面向学术研究的开源全栈人形机器人方案。"
+    }
+  },
+
+  {
+    slug: "nvidia-unitree-open-humanoid-2026",
+    date: "2026-06-02",
+    category: "humanoid",
+    featured: true,
+    en: {
+      title: "NVIDIA, Unitree, and Sharpa Launch the First Open Humanoid Robot Reference Platform",
+      summary: "At Computex 2026, NVIDIA partnered with China's Unitree Robotics and Singapore's Sharpa to release the Isaac GR00T Reference Humanoid — an open, full-stack platform for academic research that could become the Android of humanoid robotics."
+    },
+    zh: {
+      title: "英伟达、宇树、Sharpa 联合发布首个开源人形机器人参考平台：机器人界的 Android 时刻",
+      summary: "2026 年 6 月 1 日，英伟达在 Computex Taipei 宣布与宇树科技和新加坡 Sharpa 合作，推出 Isaac GR00T 参考人形机器人平台——首个面向学术研究的开源全栈人形机器人方案，或将成为人形机器人界的 Android。"
+    }
+  },
+
+  {
     slug: "openai-robotics-2026",
     date: "2026-06-01",
     category: "ai-robotics",
