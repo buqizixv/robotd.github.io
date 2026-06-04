@@ -14,6 +14,21 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "nvidia-cosmos-3-2026",
+    date: "2026-06-04",
+    category: "ai-robotics",
+    featured: false,
+    en: {
+      title: "The Omnimodel Is Here: Inside NVIDIA Cosmos 3, the Open Foundation for Physical AI",
+      summary: "NVIDIA launches Cosmos 3, the first fully open-source 'omnimodel' for Physical AI — a Mixture-of-Transformers foundation model that processes text, images, video, sound, and action trajectories in a single unified architecture."
+    },
+    zh: {
+      title: "全能模型降临：英伟达 Cosmos 3 开源物理 AI 基座模型深度解读",
+      summary: "英伟达发布 Cosmos 3，全球首个完全开源的物理 AI「全能模型」——基于 Mixture-of-Transformers 双塔架构，统一处理文本、图像、视频、环境音和动作轨迹。"
+    }
+  },
+
+  {
     slug: "apptronik-apollo-warehouse-2026",
     date: "2026-06-02",
     category: "humanoid",
