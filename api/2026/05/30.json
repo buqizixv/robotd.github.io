@@ -1,0 +1,53 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 3,
+  "articles": [
+    {
+      "slug": "aquila-earth-laser-power-2026",
+      "date": "2026-05-30",
+      "category": "industrial",
+      "featured": true,
+      "url": "https://robotd.net/article/aquila-earth-laser-power-2026/",
+      "en": {
+        "title": "Aquila Earth Sets Two World Records: Laser-Beamed Power Keeps a Robot Running for 24 Hours Straight",
+        "summary": "Sydney startup Aquila Earth powered a warehouse robot for 24 continuous hours using only an infrared laser beam — no battery swaps, no charging downtime, two world records — signaling that wireless power has crossed from laboratory curiosity to industrial reality."
+      },
+      "zh": {
+        "title": "Aquila Earth 创两项世界纪录：激光束供电驱动机器人连续运行 24 小时，无线输电跨过产业门槛",
+        "summary": "悉尼创业公司 Aquila Earth 用红外激光束驱动一台仓库机器人连续运行 24 小时、行驶 25 公里，创下两项世界纪录。千瓦级激光器成本四年内从 12 万美元降至 6000 美元，无线输电技术正从实验室走向工厂车间。"
+      }
+    },
+    {
+      "slug": "ntu-seed-sized-surgical-robot-2026",
+      "date": "2026-05-30",
+      "category": "medical",
+      "featured": false,
+      "url": "https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/",
+      "en": {
+        "title": "A Seed-Sized Surgeon: NTU Singapore's 4.4mm Robot Packs Five Surgical Tools Into a Single Grain-Scale Body",
+        "summary": "NTU Singapore unveils a 4.4mm seed-sized robot with five surgical functions — moving, cutting, drug release, gripping, and heating — switched in under a second."
+      },
+      "zh": {
+        "title": "种子大小的手术机器人：NTU新加坡4.4毫米微型机器人集五种手术功能于一身",
+        "summary": "南洋理工大学发布4.4毫米种子大小手术机器人，集成移动、切割、给药、抓取、热疗五种功能，一秒内完成切换。"
+      }
+    },
+    {
+      "slug": "nvidia-gtc-2026-40t-robotics",
+      "date": "2026-05-30",
+      "category": "ai-robotics",
+      "featured": true,
+      "url": "https://robotd.net/article/nvidia-gtc-2026-40t-robotics/",
+      "en": {
+        "title": "Jensen Huang Drops a $40 Trillion Number: NVIDIA's Robot Empire Is No Longer Just About Chips",
+        "summary": "At GTC 2026, NVIDIA CEO Jensen Huang declared the automation market worth $40 trillion, unveiled the Vera Rubin platform 40 million times faster than DGX-1, and brought a free-roaming Disney Olaf robot on stage — signaling that NVIDIA is becoming the operating system of the physical world."
+      },
+      "zh": {
+        "title": "黄仁勋抛出 40 万亿美元数字：英伟达的机器人帝国不再只是芯片",
+        "summary": "GTC 2026 大会上，黄仁勋宣称自动化市场规模达 40 万亿美元，发布比 DGX-1 快 4000 万倍的 Vera Rubin 平台，并让迪士尼雪宝机器人自主走上舞台——英伟达正在成为物理世界的操作系统。"
+      }
+    }
+  ]
+}

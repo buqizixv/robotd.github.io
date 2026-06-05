@@ -1,0 +1,38 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 2,
+  "articles": [
+    {
+      "slug": "zipline-drone-delivery-2026",
+      "date": "2026-03-28",
+      "category": "drones",
+      "featured": false,
+      "url": "https://robotd.net/article/zipline-drone-delivery-2026/",
+      "en": {
+        "title": "Zipline Expands Drone Delivery to 50 US Cities, Launches Next-Gen Platform 3",
+        "summary": "Zipline announces massive US expansion with its Platform 3 delivery drone system, promising 10-minute deliveries within a 30-mile radius across 50 metropolitan areas by year-end."
+      },
+      "zh": {
+        "title": "Zipline 将无人机配送拓展至 50 个美国城市，发布新一代 Platform 3 系统",
+        "summary": "Zipline 宣布凭借其 Platform 3 配送无人机系统进行大规模美国扩张，承诺在年底前于 50 个大都市区实现 30 英里半径内 10 分钟送达。"
+      }
+    },
+    {
+      "slug": "dji-dock-3",
+      "date": "2026-03-14",
+      "category": "drones",
+      "featured": false,
+      "url": "https://robotd.net/article/dji-dock-3/",
+      "en": {
+        "title": "DJI Dock 3: The Autonomous Drone-in-a-Box That Runs 24/7 Without Human Intervention",
+        "summary": "DJI's third-generation drone dock enables fully autonomous drone operations for industrial inspection, security, and agriculture — charging, data upload, and mission planning all happen without a human on site."
+      },
+      "zh": {
+        "title": "DJI Dock 3：全天候无人值守的自主无人机机库发布",
+        "summary": "大疆创新发布第三代无人机机库，实现工业巡检、安防和农业领域的全自主无人机运营——充电、数据上传、任务规划全部无需人员到场。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "dji-dock-3",
+      "date": "2026-03-14",
+      "category": "drones",
+      "featured": false,
+      "url": "https://robotd.net/article/dji-dock-3/",
+      "en": {
+        "title": "DJI Dock 3: The Autonomous Drone-in-a-Box That Runs 24/7 Without Human Intervention",
+        "summary": "DJI's third-generation drone dock enables fully autonomous drone operations for industrial inspection, security, and agriculture — charging, data upload, and mission planning all happen without a human on site."
+      },
+      "zh": {
+        "title": "DJI Dock 3：全天候无人值守的自主无人机机库发布",
+        "summary": "大疆创新发布第三代无人机机库，实现工业巡检、安防和农业领域的全自主无人机运营——充电、数据上传、任务规划全部无需人员到场。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "abb-collaborative-robots-2026",
+      "date": "2026-04-22",
+      "category": "industrial",
+      "featured": false,
+      "url": "https://robotd.net/article/abb-collaborative-robots-2026/",
+      "en": {
+        "title": "ABB Launches GoFa Pro: Next-Gen Collaborative Robots with AI-Powered Safety",
+        "summary": "ABB's new GoFa Pro cobot series features embedded AI safety systems that dynamically adjust speed and force based on real-time human proximity, eliminating the need for safety fences."
+      },
+      "zh": {
+        "title": "ABB 发布 GoFa Pro：搭载 AI 动力安全系统的下一代协作机器人",
+        "summary": "ABB 新型 GoFa Pro 协作机器人系列配备嵌入式 AI 安全系统，可根据实时人体接近距离动态调整速度和力矩，无需安全围栏。"
+      }
+    }
+  ]
+}

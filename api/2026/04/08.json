@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "nvidia-groot-2026",
+      "date": "2026-04-08",
+      "category": "ai-robotics",
+      "featured": false,
+      "url": "https://robotd.net/article/nvidia-groot-2026/",
+      "en": {
+        "title": "NVIDIA GR00T Goes Public: The Generalist Robot AI Platform Now Open to Developers Worldwide",
+        "summary": "NVIDIA opens its GR00T robot foundation model platform to all developers, providing a cloud-based training and deployment pipeline that could democratize generalist robot AI development."
+      },
+      "zh": {
+        "title": "NVIDIA GR00T 平台向全球开发者开放：通用型机器人 AI 的民主化时刻",
+        "summary": "NVIDIA 向所有开发者开放 GR00T 机器人基础模型平台，提供基于云端的训练和部署流程，有望普及通用型机器人 AI 开发。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "wing-tokyo-drone-network-2026",
+      "date": "2026-05-25",
+      "category": "drones",
+      "featured": true,
+      "url": "https://robotd.net/article/wing-tokyo-drone-network-2026/",
+      "en": {
+        "title": "Wing Launches World's First City-Wide Autonomous Drone Delivery Network in Tokyo",
+        "summary": "Alphabet's Wing Aviation goes live with 85 drone nests across Tokyo, completing 18,000 deliveries in three days and proving autonomous urban drone delivery works at megacity scale."
+      },
+      "zh": {
+        "title": "Wing 在东京启动全球首个全城自主无人机配送网络",
+        "summary": "Alphabet 旗下 Wing Aviation 在东京部署 85 个无人机巢，三天内完成 18000 次配送，证明自主城市无人机配送在超大城市规模下可行。"
+      }
+    }
+  ]
+}

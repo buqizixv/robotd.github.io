@@ -1,0 +1,68 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 4,
+  "articles": [
+    {
+      "slug": "bike-robot-front-flip-2026",
+      "date": "2026-06-05",
+      "category": "research",
+      "featured": true,
+      "url": "https://robotd.net/article/bike-robot-front-flip-2026/",
+      "en": {
+        "title": "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
+        "summary": "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
+      },
+      "zh": {
+        "title": "自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动",
+        "summary": "Georgia Tech 博士生在 RAI Institute 实习期间，让一台自行车机器人完成了全球首个无人辅助的 360 度前空翻。背后是一套名为「迭代运动模仿」的方法——从一段糟糕的轨迹开始，越迭代越强。"
+      }
+    },
+    {
+      "slug": "byd-humanoid-robot-2026",
+      "date": "2026-06-05",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/byd-humanoid-robot-2026/",
+      "en": {
+        "title": "BYD Officially Enters Humanoid Robotics: What It Means for the Industry",
+        "summary": "China's largest EV maker BYD confirms development of humanoid robots, leveraging automotive AI and strategic investments to enter the fast-growing embodied intelligence market."
+      },
+      "zh": {
+        "title": "比亚迪正式入局人形机器人：对行业意味着什么",
+        "summary": "中国最大电动汽车制造商比亚迪确认正在开发人形机器人，借助汽车AI能力和战略投资进入快速增长的人形机器人市场。"
+      }
+    },
+    {
+      "slug": "byd-humanoid-robotics-confirmed-june-2026",
+      "date": "2026-06-05",
+      "category": "humanoid",
+      "featured": false,
+      "url": "https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/",
+      "en": {
+        "title": "BYD Confirms Humanoid Robotics Division, June 2026",
+        "summary": "BYD officially confirms the establishment of a humanoid robotics division in June 2026, marking the electric vehicle giant's entry into embodied AI."
+      },
+      "zh": {
+        "title": "比亚迪确认成立人形机器人事业部（2026年6月）",
+        "summary": "比亚迪于2026年6月正式确认成立人形机器人事业部，标志着这家电动汽车巨头正式进入具身人工智能领域。"
+      }
+    },
+    {
+      "slug": "rapid-neural-evolution-robot-gait-2026",
+      "date": "2026-06-05",
+      "category": "research",
+      "featured": true,
+      "url": "https://robotd.net/article/rapid-neural-evolution-robot-gait-2026/",
+      "en": {
+        "title": "11 Minutes to a New Gait: The Algorithm That Lets Robots Evolve Past Their Own Damage",
+        "summary": "UC Berkeley and ETH Zurich unveil a rapid neural evolution algorithm that lets a damaged six-legged robot discover a completely novel gait on physical hardware in 11 minutes — evolving neural network weights in real time, not in simulation."
+      },
+      "zh": {
+        "title": "11分钟长出全新步态：让破损机器人自己进化出行走能力的算法",
+        "summary": "UC Berkeley 与 ETH Zurich 联合团队提出快速神经进化算法，让一台六足机器人在腿部执行器失效后，仅用11分钟就在真实硬件上进化出全新的五足步态——不依赖仿真，不依赖损伤诊断，从零开始。"
+      }
+    }
+  ]
+}

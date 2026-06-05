@@ -1,0 +1,38 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 2,
+  "articles": [
+    {
+      "slug": "genesis-ai-gene-26-5",
+      "date": "2026-05-26",
+      "category": "ai-robotics",
+      "featured": true,
+      "url": "https://robotd.net/article/genesis-ai-gene-26-5/",
+      "en": {
+        "title": "Genesis AI Emerges From Stealth With $105M and a Robot Brain That Cooks, Plays Piano, and Cracks Eggs",
+        "summary": "Genesis AI unveils GENE-26.5, a vision-language-action foundation model that gives robots human-level dexterity — demonstrated by cooking a 20-step meal, playing piano, and solving a Rubik's Cube one-handed."
+      },
+      "zh": {
+        "title": "Genesis AI 携 1.05 亿美元融资从隐身模式浮出：能做饭、弹钢琴、单手解魔方的机器人大脑来了",
+        "summary": "Genesis AI 发布 GENE-26.5 视觉-语言-动作基础模型，赋予机器人人类级灵巧操作能力——现场演示了烹饪 20 道工序早餐、高速弹钢琴、单手解魔方，并获 1.05 亿美元种子轮融资。"
+      }
+    },
+    {
+      "slug": "mitsubishi-physical-ai-2026",
+      "date": "2026-05-26",
+      "category": "ai-robotics",
+      "featured": true,
+      "url": "https://robotd.net/article/mitsubishi-physical-ai-2026/",
+      "en": {
+        "title": "Mitsubishi Electric Bets Big on Physical AI, Partners With Chiba Institute to Build Japan's Homegrown Robot Brain",
+        "summary": "Mitsubishi Electric and Chiba Institute of Technology announce a three-year co-research agreement to develop Japan's own Physical AI platform for humanoid robots, multi-legged walkers, and autonomous drones — signaling Japan's intent to compete in the global robotics AI race."
+      },
+      "zh": {
+        "title": "三菱电机押注 Physical AI，联手千叶工业大学打造日本自主机器人大脑",
+        "summary": "三菱电机与千叶工业大学签署三年期联合研发协议，开发日本自主的 Physical AI 平台，覆盖人形机器人、多足行走机器人和自主无人机——标志着日本正式加入全球机器人 AI 竞赛，与美国和中国展开竞争。"
+      }
+    }
+  ]
+}

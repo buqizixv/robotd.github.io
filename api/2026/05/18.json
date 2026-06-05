@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "figure-02-bmw-production",
+      "date": "2026-05-18",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/figure-02-bmw-production/",
+      "en": {
+        "title": "Figure 02 Humanoid Robot Enters Full Production at BMW Spartanburg Plant",
+        "summary": "Figure AI's 02 humanoid robot has moved from pilot testing to full production deployment at BMW's South Carolina factory, marking the first commercial-scale humanoid workforce in automotive manufacturing."
+      },
+      "zh": {
+        "title": "Figure 02 人形机器人在宝马斯帕坦堡工厂全面投产",
+        "summary": "Figure AI 的 02 人形机器人已从试点测试阶段进入宝马南卡罗来纳州工厂的全面生产部署，这是汽车制造业首次实现商业规模的人形机器人劳动力。"
+      }
+    }
+  ]
+}

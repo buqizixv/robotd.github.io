@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "micro-robots-drug-delivery",
+      "date": "2026-05-20",
+      "category": "medical",
+      "featured": false,
+      "url": "https://robotd.net/article/micro-robots-drug-delivery/",
+      "en": {
+        "title": "Magnetic Micro-Robots Deliver Chemotherapy Directly to Tumors in First Human Trial",
+        "summary": "ETH Zurich spin-off Microsenso reports successful Phase I trial results for magnetically-guided micro-robots that navigate blood vessels to deliver chemotherapy precisely at tumor sites, reducing systemic side effects by 80%."
+      },
+      "zh": {
+        "title": "磁性微型机器人首次人体试验：将化疗药物直接输送至肿瘤",
+        "summary": "苏黎世联邦理工学院衍生公司 Microsenso 报告，磁导微型机器人成功完成 I 期临床试验，可在血管中导航，将化疗药物精确递送至肿瘤部位，将全身副作用降低 80%。"
+      }
+    }
+  ]
+}

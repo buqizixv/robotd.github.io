@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "deepmind-rt-3",
+      "date": "2026-05-05",
+      "category": "ai-robotics",
+      "featured": true,
+      "url": "https://robotd.net/article/deepmind-rt-3/",
+      "en": {
+        "title": "Google DeepMind's RT-3 Robot Foundation Model: One Brain, Dozens of Robots, Zero Retraining",
+        "summary": "DeepMind unveils Robotics Transformer 3 (RT-3), a vision-language-action foundation model that controls robots from 8 different manufacturers without per-robot fine-tuning, marking a turning point in generalist robot AI."
+      },
+      "zh": {
+        "title": "Google DeepMind 发布 RT-3 机器人基础模型：一个大脑控制几十种机器人，无需重新训练",
+        "summary": "DeepMind 发布 Robotics Transformer 3 (RT-3)，这是一个视觉-语言-动作基础模型，无需按机器人微调即可控制来自 8 家不同制造商的机器人，标志着通用型机器人 AI 的转折点。"
+      }
+    }
+  ]
+}

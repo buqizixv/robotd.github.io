@@ -1,0 +1,68 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 4,
+  "articles": [
+    {
+      "slug": "mit-soft-actuator-breakthrough",
+      "date": "2026-04-30",
+      "category": "research",
+      "featured": false,
+      "url": "https://robotd.net/article/mit-soft-actuator-breakthrough/",
+      "en": {
+        "title": "MIT Soft Robotics Lab Develops Artificial Muscle That Matches Human Muscle Efficiency",
+        "summary": "MIT researchers create a hydraulically-amplified electrostatic actuator that achieves 49% energy efficiency — comparable to biological muscle — potentially enabling a new generation of dexterous, energy-efficient robots."
+      },
+      "zh": {
+        "title": "MIT 软体机器人实验室研发出与人体肌肉效率相当的仿生人工肌肉",
+        "summary": "MIT 研究人员创造了一种液压放大静电致动器，能量效率达 49%——与生物肌肉相当——有望开启新一代灵巧、高能效机器人。"
+      }
+    },
+    {
+      "slug": "abb-collaborative-robots-2026",
+      "date": "2026-04-22",
+      "category": "industrial",
+      "featured": false,
+      "url": "https://robotd.net/article/abb-collaborative-robots-2026/",
+      "en": {
+        "title": "ABB Launches GoFa Pro: Next-Gen Collaborative Robots with AI-Powered Safety",
+        "summary": "ABB's new GoFa Pro cobot series features embedded AI safety systems that dynamically adjust speed and force based on real-time human proximity, eliminating the need for safety fences."
+      },
+      "zh": {
+        "title": "ABB 发布 GoFa Pro：搭载 AI 动力安全系统的下一代协作机器人",
+        "summary": "ABB 新型 GoFa Pro 协作机器人系列配备嵌入式 AI 安全系统，可根据实时人体接近距离动态调整速度和力矩，无需安全围栏。"
+      }
+    },
+    {
+      "slug": "amazon-sparrow-warehouse",
+      "date": "2026-04-15",
+      "category": "industrial",
+      "featured": false,
+      "url": "https://robotd.net/article/amazon-sparrow-warehouse/",
+      "en": {
+        "title": "Amazon Sparrow Reaches 1 Billion Picks: Inside the AI That Powers the World's Largest Mobile Robot Fleet",
+        "summary": "Amazon's AI-powered Sparrow picking system has processed one billion items, revealing how computer vision and reinforcement learning are transforming warehouse logistics at unprecedented scale."
+      },
+      "zh": {
+        "title": "Amazon Sparrow 突破十亿挑拣：驱动全球最大移动机器人机群的 AI 揭秘",
+        "summary": "Amazon 的 AI 驱动 Sparrow 分拣系统已处理十亿件商品，展示了计算机视觉和强化学习如何以前所未有的规模变革仓储物流。"
+      }
+    },
+    {
+      "slug": "nvidia-groot-2026",
+      "date": "2026-04-08",
+      "category": "ai-robotics",
+      "featured": false,
+      "url": "https://robotd.net/article/nvidia-groot-2026/",
+      "en": {
+        "title": "NVIDIA GR00T Goes Public: The Generalist Robot AI Platform Now Open to Developers Worldwide",
+        "summary": "NVIDIA opens its GR00T robot foundation model platform to all developers, providing a cloud-based training and deployment pipeline that could democratize generalist robot AI development."
+      },
+      "zh": {
+        "title": "NVIDIA GR00T 平台向全球开发者开放：通用型机器人 AI 的民主化时刻",
+        "summary": "NVIDIA 向所有开发者开放 GR00T 机器人基础模型平台，提供基于云端的训练和部署流程，有望普及通用型机器人 AI 开发。"
+      }
+    }
+  ]
+}

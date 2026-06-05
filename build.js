@@ -245,7 +245,7 @@ console.log('  OK  sitemap.xml');
 fs.writeFileSync(path.join(__dirname, 'robots.txt'), 'User-agent: *\nAllow: /\nSitemap: ' + BASE_URL + '/sitemap.xml\n', 'utf8');
 console.log('  OK  robots.txt');
 
-// API — hot.json
+// API — hot.json (full listing + date-indexed endpoints)
 const apiDir = path.join(__dirname, 'api');
 fs.mkdirSync(apiDir, { recursive: true });
 const apiData = articles.map(a => ({
@@ -266,6 +266,34 @@ const apiPayload = {
 };
 fs.writeFileSync(path.join(apiDir, 'hot.json'), JSON.stringify(apiPayload, null, 2), 'utf8');
 console.log('  OK  api/hot.json (' + apiData.length + ' articles)');
+
+// Date-indexed: api/<YYYY>/<MM>.json and api/<YYYY>/<MM>/<DD>.json
+const dateMap = {};
+apiData.forEach(a => {
+  const [y, m, d] = a.date.split('-');
+  const mKey = y + '/' + m;
+  const dKey = mKey + '/' + d;
+  if (!dateMap[mKey]) dateMap[mKey] = [];
+  if (!dateMap[dKey]) dateMap[dKey] = [];
+  dateMap[mKey].push(a);
+  dateMap[dKey].push(a);
+});
+Object.keys(dateMap).forEach(key => {
+  const dir = path.join(apiDir, path.dirname(key));
+  fs.mkdirSync(dir, { recursive: true });
+  const payload = {
+    site: SITE_NAME,
+    url: BASE_URL,
+    updated: new Date().toISOString().slice(0, 10),
+    total: dateMap[key].length,
+    articles: dateMap[key]
+  };
+  fs.writeFileSync(path.join(apiDir, key + '.json'), JSON.stringify(payload, null, 2), 'utf8');
+});
+const monthCount = Object.keys(dateMap).filter(k => k.split('/').length === 2).length;
+const dayCount = Object.keys(dateMap).filter(k => k.split('/').length === 3).length;
+console.log('  OK  api/<YYYY>/<MM>.json  (' + monthCount + ' months)');
+console.log('  OK  api/<YYYY>/<MM>/<DD>.json  (' + dayCount + ' days)');
 
 // Check images
 console.log('\n--- Images ---');

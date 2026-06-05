@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "zipline-drone-delivery-2026",
+      "date": "2026-03-28",
+      "category": "drones",
+      "featured": false,
+      "url": "https://robotd.net/article/zipline-drone-delivery-2026/",
+      "en": {
+        "title": "Zipline Expands Drone Delivery to 50 US Cities, Launches Next-Gen Platform 3",
+        "summary": "Zipline announces massive US expansion with its Platform 3 delivery drone system, promising 10-minute deliveries within a 30-mile radius across 50 metropolitan areas by year-end."
+      },
+      "zh": {
+        "title": "Zipline 将无人机配送拓展至 50 个美国城市，发布新一代 Platform 3 系统",
+        "summary": "Zipline 宣布凭借其 Platform 3 配送无人机系统进行大规模美国扩张，承诺在年底前于 50 个大都市区实现 30 英里半径内 10 分钟送达。"
+      }
+    }
+  ]
+}

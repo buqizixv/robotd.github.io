@@ -1,0 +1,38 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 2,
+  "articles": [
+    {
+      "slug": "da-vinci-xi-successor",
+      "date": "2026-05-12",
+      "category": "medical",
+      "featured": false,
+      "url": "https://robotd.net/article/da-vinci-xi-successor/",
+      "en": {
+        "title": "Intuitive Surgical Unveils da Vinci Xi Successor with AI-Assisted Anatomy Recognition",
+        "summary": "The new da Vinci surgical platform incorporates real-time AI anatomy recognition that highlights critical structures during surgery, aiming to reduce complications and shorten surgeon learning curves."
+      },
+      "zh": {
+        "title": "直觉外科发布新一代 da Vinci Xi 手术机器人：搭载 AI 辅助解剖识别系统",
+        "summary": "新一代 da Vinci 手术平台集成实时 AI 解剖识别功能，在手术中突出显示关键组织结构，旨在减少并发症并缩短外科医生学习曲线。"
+      }
+    },
+    {
+      "slug": "unitree-gd01-mecha",
+      "date": "2026-05-12",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/unitree-gd01-mecha/",
+      "en": {
+        "title": "Unitree Unveils GD01: The World's First Mass-Produced Piloted Transforming Mecha",
+        "summary": "Unitree Robotics shocks the world with GD01, a pilotable 3-meter-tall mecha that switches between bipedal and quadrupedal modes, priced at 3.9 million yuan — and the CEO personally piloted it on stage."
+      },
+      "zh": {
+        "title": "宇树科技发布 GD01：全球首款量产载人变形机甲震撼亮相",
+        "summary": "宇树科技发布 GD01 载人变形机甲，高近 3 米、重 500 公斤，可在双足与四足模式间切换，售价 390 万元起。CEO 王兴兴亲自登车驾驶，全程实拍无 AI。"
+      }
+    }
+  ]
+}

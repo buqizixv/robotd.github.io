@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "hyundai-atlas-worldcup-2026",
+      "date": "2026-05-29",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/hyundai-atlas-worldcup-2026/",
+      "en": {
+        "title": "Hyundai's Atlas Humanoid Robot Masters the Rabona Kick — and 33 Million People Can't Stop Watching",
+        "summary": "Hyundai Motor's all-electric Atlas humanoid robot stuns the world with a World Cup campaign featuring a 'ghost rabona' kick learned through reinforcement learning, racking up 33 million views while the company plans 25,000+ factory deployments starting 2028."
+      },
+      "zh": {
+        "title": "现代 Atlas 人形机器人踢出「幽灵 Rabona」——3300 万人看得停不下来",
+        "summary": "现代汽车全电动 Atlas 人形机器人在世界杯营销活动中踢出一记通过强化学习掌握的「幽灵 Rabona」，五天累计 3300 万次观看，同时公司计划 2028 年起在工厂部署超 25000 台 Atlas。"
+      }
+    }
+  ]
+}

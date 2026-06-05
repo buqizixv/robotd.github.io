@@ -1,0 +1,143 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 9,
+  "articles": [
+    {
+      "slug": "bike-robot-front-flip-2026",
+      "date": "2026-06-05",
+      "category": "research",
+      "featured": true,
+      "url": "https://robotd.net/article/bike-robot-front-flip-2026/",
+      "en": {
+        "title": "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
+        "summary": "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
+      },
+      "zh": {
+        "title": "自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动",
+        "summary": "Georgia Tech 博士生在 RAI Institute 实习期间，让一台自行车机器人完成了全球首个无人辅助的 360 度前空翻。背后是一套名为「迭代运动模仿」的方法——从一段糟糕的轨迹开始，越迭代越强。"
+      }
+    },
+    {
+      "slug": "byd-humanoid-robot-2026",
+      "date": "2026-06-05",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/byd-humanoid-robot-2026/",
+      "en": {
+        "title": "BYD Officially Enters Humanoid Robotics: What It Means for the Industry",
+        "summary": "China's largest EV maker BYD confirms development of humanoid robots, leveraging automotive AI and strategic investments to enter the fast-growing embodied intelligence market."
+      },
+      "zh": {
+        "title": "比亚迪正式入局人形机器人：对行业意味着什么",
+        "summary": "中国最大电动汽车制造商比亚迪确认正在开发人形机器人，借助汽车AI能力和战略投资进入快速增长的人形机器人市场。"
+      }
+    },
+    {
+      "slug": "byd-humanoid-robotics-confirmed-june-2026",
+      "date": "2026-06-05",
+      "category": "humanoid",
+      "featured": false,
+      "url": "https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/",
+      "en": {
+        "title": "BYD Confirms Humanoid Robotics Division, June 2026",
+        "summary": "BYD officially confirms the establishment of a humanoid robotics division in June 2026, marking the electric vehicle giant's entry into embodied AI."
+      },
+      "zh": {
+        "title": "比亚迪确认成立人形机器人事业部（2026年6月）",
+        "summary": "比亚迪于2026年6月正式确认成立人形机器人事业部，标志着这家电动汽车巨头正式进入具身人工智能领域。"
+      }
+    },
+    {
+      "slug": "rapid-neural-evolution-robot-gait-2026",
+      "date": "2026-06-05",
+      "category": "research",
+      "featured": true,
+      "url": "https://robotd.net/article/rapid-neural-evolution-robot-gait-2026/",
+      "en": {
+        "title": "11 Minutes to a New Gait: The Algorithm That Lets Robots Evolve Past Their Own Damage",
+        "summary": "UC Berkeley and ETH Zurich unveil a rapid neural evolution algorithm that lets a damaged six-legged robot discover a completely novel gait on physical hardware in 11 minutes — evolving neural network weights in real time, not in simulation."
+      },
+      "zh": {
+        "title": "11分钟长出全新步态：让破损机器人自己进化出行走能力的算法",
+        "summary": "UC Berkeley 与 ETH Zurich 联合团队提出快速神经进化算法，让一台六足机器人在腿部执行器失效后，仅用11分钟就在真实硬件上进化出全新的五足步态——不依赖仿真，不依赖损伤诊断，从零开始。"
+      }
+    },
+    {
+      "slug": "nvidia-cosmos-3-2026",
+      "date": "2026-06-04",
+      "category": "ai-robotics",
+      "featured": false,
+      "url": "https://robotd.net/article/nvidia-cosmos-3-2026/",
+      "en": {
+        "title": "The Omnimodel Is Here: Inside NVIDIA Cosmos 3, the Open Foundation for Physical AI",
+        "summary": "NVIDIA launches Cosmos 3, the first fully open-source 'omnimodel' for Physical AI — a Mixture-of-Transformers foundation model that processes text, images, video, sound, and action trajectories in a single unified architecture."
+      },
+      "zh": {
+        "title": "全能模型降临：英伟达 Cosmos 3 开源物理 AI 基座模型深度解读",
+        "summary": "英伟达发布 Cosmos 3，全球首个完全开源的物理 AI「全能模型」——基于 Mixture-of-Transformers 双塔架构，统一处理文本、图像、视频、环境音和动作轨迹。"
+      }
+    },
+    {
+      "slug": "apptronik-apollo-warehouse-2026",
+      "date": "2026-06-02",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/apptronik-apollo-warehouse-2026/",
+      "en": {
+        "title": "The Pragmatist's Humanoid: Why Mercedes, Google, and Deere Are Betting on Apptronik's Apollo",
+        "summary": "Apptronik's Apollo humanoid deployed at Mercedes-Benz and GXO in 2026, backed by Google, Deere, and $935M. The NASA-born robot bets pragmatism over spectacle."
+      },
+      "zh": {
+        "title": "Apollo 落地：人形机器人赛道上，那个最务实的选手悄悄攒了一手好牌",
+        "summary": "2026 年，Apptronik 的 Apollo 人形机器人在奔驰和 GXO 仓库实地部署，背后是谷歌、奔驰、约翰迪尔和 9.35 亿美元融资。这家 NASA 技术转化的创业公司正在用人形机器人的务实路线赢得工业界的信任。"
+      }
+    },
+    {
+      "slug": "nvidia-unitree-open-humanoid-2026",
+      "date": "2026-06-02",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/nvidia-unitree-open-humanoid-2026/",
+      "en": {
+        "title": "NVIDIA, Unitree, and Sharpa Launch the First Open Humanoid Robot Reference Platform",
+        "summary": "At Computex 2026, NVIDIA partnered with China's Unitree Robotics and Singapore's Sharpa to release the Isaac GR00T Reference Humanoid — an open, full-stack platform for academic research that could become the Android of humanoid robotics."
+      },
+      "zh": {
+        "title": "英伟达、宇树、Sharpa 联合发布首个开源人形机器人参考平台：机器人界的 Android 时刻",
+        "summary": "2026 年 6 月 1 日，英伟达在 Computex Taipei 宣布与宇树科技和新加坡 Sharpa 合作，推出 Isaac GR00T 参考人形机器人平台——首个面向学术研究的开源全栈人形机器人方案，或将成为人形机器人界的 Android。"
+      }
+    },
+    {
+      "slug": "agility-digit-warehouse-2026",
+      "date": "2026-06-01",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/agility-digit-warehouse-2026/",
+      "en": {
+        "title": "Agility's Digit Is the Only Humanoid Robot Actually Making Money in Warehouses Right Now",
+        "summary": "With 100,000+ totes moved at GXO, seven units deployed at Toyota Canada under a RaaS contract, and a cooperatively safe Digit coming late 2026, Agility is pulling ahead in the warehouse humanoid race."
+      },
+      "zh": {
+        "title": "Digit 人形机器人悄然占领仓库：10 万次搬运之后，丰田开始付钱了",
+        "summary": "当其他人形机器人还在拍演示视频时，Agility 的 Digit 已在 GXO 仓库搬运超过 10 万个周转箱，并在丰田加拿大工厂签下商业合同。2026 年底「协作安全」版本将彻底打开仓库部署空间。"
+      }
+    },
+    {
+      "slug": "openai-robotics-2026",
+      "date": "2026-06-01",
+      "category": "ai-robotics",
+      "featured": true,
+      "url": "https://robotd.net/article/openai-robotics-2026/",
+      "en": {
+        "title": "OpenAI Enters the Humanoid Race: Sam Altman's Bet on a Robot in Every Home",
+        "summary": "On June 1, 2026, OpenAI announced a new robotics division and began hiring hardware engineers — the same day NVIDIA unveiled its open reference humanoid. Two AI giants crossed the physical divide simultaneously. The race for the physical world just got real."
+      },
+      "zh": {
+        "title": "OpenAI 正式入局人形机器人：奥特曼用一则招聘宣告物理世界争夺战开幕",
+        "summary": "2026 年 6 月 1 日，OpenAI 宣布成立机器人部门并大规模招聘硬件工程师；同日，英伟达发布开源参照人形机器人。两家 AI 巨头同一天跨越虚实分界，物理世界的竞赛正式拉开帷幕。"
+      }
+    }
+  ]
+}

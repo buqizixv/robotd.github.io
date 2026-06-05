@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "tesla-optimus-gen3-update",
+      "date": "2026-05-10",
+      "category": "humanoid",
+      "featured": false,
+      "url": "https://robotd.net/article/tesla-optimus-gen3-update/",
+      "en": {
+        "title": "Tesla Optimus Gen 3: New Dexterity Milestones and a Roadmap to Mass Production",
+        "summary": "Tesla reveals Optimus Gen 3 with 22-DoF hands, improved battery life, and a concrete timeline for consumer availability starting at $20,000."
+      },
+      "zh": {
+        "title": "特斯拉 Optimus 第三代：灵巧手突破性进展与量产路线图",
+        "summary": "特斯拉发布 Optimus 第三代，配备 22 自由度灵巧手、更长续航，并明确宣布消费者版目标售价 2 万美元。"
+      }
+    }
+  ]
+}

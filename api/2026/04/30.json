@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "mit-soft-actuator-breakthrough",
+      "date": "2026-04-30",
+      "category": "research",
+      "featured": false,
+      "url": "https://robotd.net/article/mit-soft-actuator-breakthrough/",
+      "en": {
+        "title": "MIT Soft Robotics Lab Develops Artificial Muscle That Matches Human Muscle Efficiency",
+        "summary": "MIT researchers create a hydraulically-amplified electrostatic actuator that achieves 49% energy efficiency — comparable to biological muscle — potentially enabling a new generation of dexterous, energy-efficient robots."
+      },
+      "zh": {
+        "title": "MIT 软体机器人实验室研发出与人体肌肉效率相当的仿生人工肌肉",
+        "summary": "MIT 研究人员创造了一种液压放大静电致动器，能量效率达 49%——与生物肌肉相当——有望开启新一代灵巧、高能效机器人。"
+      }
+    }
+  ]
+}

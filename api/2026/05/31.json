@@ -1,0 +1,38 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 2,
+  "articles": [
+    {
+      "slug": "1x-neo-mass-production-2026",
+      "date": "2026-05-31",
+      "category": "humanoid",
+      "featured": true,
+      "url": "https://robotd.net/article/1x-neo-mass-production-2026/",
+      "en": {
+        "title": "1X's NEO Goes Mass-Production: The First US Humanoid Robot Factory Is Here, and It Changes Everything",
+        "summary": "1X Technologies opens the first vertically integrated humanoid robot factory in California, shipping 10,000 NEO units with a self-learning World Model at $20,000 each."
+      },
+      "zh": {
+        "title": "1X NEO 人形机器人量产启幕：美国首座人形机器人工厂投产，自主学习的时代开始了",
+        "summary": "1X Technologies 在加州启动全球首座全垂直整合的人形机器人工厂，年产万台 NEO，搭载世界模型实现自主学习，售价 2 万美元起。"
+      }
+    },
+    {
+      "slug": "duke-argus-omnidirectional-robot-2026",
+      "date": "2026-05-31",
+      "category": "research",
+      "featured": false,
+      "url": "https://robotd.net/article/duke-argus-omnidirectional-robot-2026/",
+      "en": {
+        "title": "Duke University's 20-Legged Argus Robot Shatters a Hidden Assumption in Robotics Design",
+        "summary": "Duke researchers unveil Argus, a sea-urchin-like robot with 20 legs and 20 cameras that moves equally well in all directions — scoring 0.91 on a new metric called dynamic isotropy, nearly double the score of humanoids and quadrupeds."
+      },
+      "zh": {
+        "title": "杜克大学20足机器人Argus打破机器人设计的隐性桎梏",
+        "summary": "杜克大学研究人员发布海胆状20足20眼机器人Argus，在所有方向上均等移动——在名为'动态各向同性'的新指标上得分0.91，接近人形机器人和四足机器人的两倍。"
+      }
+    }
+  ]
+}

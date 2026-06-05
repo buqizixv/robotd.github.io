@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-05",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "amazon-sparrow-warehouse",
+      "date": "2026-04-15",
+      "category": "industrial",
+      "featured": false,
+      "url": "https://robotd.net/article/amazon-sparrow-warehouse/",
+      "en": {
+        "title": "Amazon Sparrow Reaches 1 Billion Picks: Inside the AI That Powers the World's Largest Mobile Robot Fleet",
+        "summary": "Amazon's AI-powered Sparrow picking system has processed one billion items, revealing how computer vision and reinforcement learning are transforming warehouse logistics at unprecedented scale."
+      },
+      "zh": {
+        "title": "Amazon Sparrow 突破十亿挑拣：驱动全球最大移动机器人机群的 AI 揭秘",
+        "summary": "Amazon 的 AI 驱动 Sparrow 分拣系统已处理十亿件商品，展示了计算机视觉和强化学习如何以前所未有的规模变革仓储物流。"
+      }
+    }
+  ]
+}
