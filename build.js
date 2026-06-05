@@ -245,6 +245,28 @@ console.log('  OK  sitemap.xml');
 fs.writeFileSync(path.join(__dirname, 'robots.txt'), 'User-agent: *\nAllow: /\nSitemap: ' + BASE_URL + '/sitemap.xml\n', 'utf8');
 console.log('  OK  robots.txt');
 
+// API — hot.json
+const apiDir = path.join(__dirname, 'api');
+fs.mkdirSync(apiDir, { recursive: true });
+const apiData = articles.map(a => ({
+  slug: a.slug,
+  date: a.date,
+  category: a.category,
+  featured: a.featured || false,
+  url: BASE_URL + '/article/' + a.slug + '/',
+  en: { title: a.en.title, summary: a.en.summary },
+  zh: { title: a.zh.title, summary: a.zh.summary }
+}));
+const apiPayload = {
+  site: SITE_NAME,
+  url: BASE_URL,
+  updated: new Date().toISOString().slice(0, 10),
+  total: apiData.length,
+  articles: apiData
+};
+fs.writeFileSync(path.join(apiDir, 'hot.json'), JSON.stringify(apiPayload, null, 2), 'utf8');
+console.log('  OK  api/hot.json (' + apiData.length + ' articles)');
+
 // Check images
 console.log('\n--- Images ---');
 const imgDir = path.join(__dirname, 'image');
