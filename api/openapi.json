@@ -68,29 +68,11 @@
             }
           }
         ],
-        "x-test-parameters": {
-          "description": "按月查询测试用例",
-          "cases": [
-            {
-              "name": "查询2026年6月",
-              "year": "2026",
-              "month": "06",
-              "exampleUrl": "https://robotd.net/api/2026/06.json"
-            },
-            {
-              "name": "查询2026年5月",
-              "year": "2026",
-              "month": "05",
-              "exampleUrl": "https://robotd.net/api/2026/05.json"
-            },
-            {
-              "name": "查询2026年2月",
-              "year": "2026",
-              "month": "02",
-              "exampleUrl": "https://robotd.net/api/2026/02.json"
-            }
-          ]
-        },
+        "x-test-parameters": [
+          {"year": "2026", "month": "06"},
+          {"year": "2026", "month": "05"},
+          {"year": "2026", "month": "02"}
+        ],
         "responses": {
           "200": {
             "description": "成功返回该月文章列表",
@@ -145,46 +127,12 @@
             }
           }
         ],
-        "x-test-parameters": {
-          "description": "按日查询测试用例",
-          "cases": [
-            {
-              "name": "查询2026年6月5日",
-              "year": "2026",
-              "month": "06",
-              "day": "05",
-              "exampleUrl": "https://robotd.net/api/2026/06/05.json"
-            },
-            {
-              "name": "查询2026年6月4日",
-              "year": "2026",
-              "month": "06",
-              "day": "04",
-              "exampleUrl": "https://robotd.net/api/2026/06/04.json"
-            },
-            {
-              "name": "查询2026年6月1日",
-              "year": "2026",
-              "month": "06",
-              "day": "01",
-              "exampleUrl": "https://robotd.net/api/2026/06/01.json"
-            },
-            {
-              "name": "查询2026年5月31日",
-              "year": "2026",
-              "month": "05",
-              "day": "31",
-              "exampleUrl": "https://robotd.net/api/2026/05/31.json"
-            },
-            {
-              "name": "查询2026年5月30日",
-              "year": "2026",
-              "month": "05",
-              "day": "30",
-              "exampleUrl": "https://robotd.net/api/2026/05/30.json"
-            }
-          ]
-        },
+        "x-test-parameters": [
+          {"year": "2026", "month": "06", "day": "05"},
+          {"year": "2026", "month": "06", "day": "04"},
+          {"year": "2026", "month": "05", "day": "31"},
+          {"year": "2026", "month": "05", "day": "30"}
+        ],
         "responses": {
           "200": {
             "description": "成功返回该日文章列表",
