@@ -16,6 +16,21 @@
 
   <url><loc>https://robotd.net/category/research/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
+  <url><loc>https://robotd.net/article/bike-robot-front-flip-2026/</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/bike-robot-front-flip-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/bike-robot-front-flip-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/byd-humanoid-robot-2026/</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=zh"/>
+  </url>
+
+  <url><loc>https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/</loc><lastmod>2026-06-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/?lang=zh"/>
+  </url>
+
   <url><loc>https://robotd.net/article/nvidia-cosmos-3-2026/</loc><lastmod>2026-06-04</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/nvidia-cosmos-3-2026/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/nvidia-cosmos-3-2026/?lang=zh"/>
@@ -74,11 +89,6 @@
   <url><loc>https://robotd.net/article/engineai-humanoid-factory-2026/</loc><lastmod>2026-05-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/engineai-humanoid-factory-2026/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/engineai-humanoid-factory-2026/?lang=zh"/>
-  </url>
-
-  <url><loc>https://robotd.net/article/byd-humanoid-robot-2026/</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://robotd.net/article/byd-humanoid-robot-2026/?lang=zh"/>
   </url>
 
   <url><loc>https://robotd.net/article/genesis-ai-gene-26-5/</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>

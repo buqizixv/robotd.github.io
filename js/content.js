@@ -14,6 +14,36 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "bike-robot-front-flip-2026",
+    date: "2026-06-05",
+    category: "research",
+    featured: true,
+    en: {
+      title: "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
+      summary: "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
+    },
+    zh: {
+      title: "自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动",
+      summary: "Georgia Tech 博士生在 RAI Institute 实习期间，让一台自行车机器人完成了全球首个无人辅助的 360 度前空翻。背后是一套名为「迭代运动模仿」的方法——从一段糟糕的轨迹开始，越迭代越强。"
+    }
+  },
+
+  {
+    slug: "bike-robot-front-flip-2026",
+    date: "2026-06-05",
+    category: "research",
+    featured: true,
+    en: {
+      title: "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
+      summary: "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
+    },
+    zh: {
+      title: "自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动",
+      summary: "Georgia Tech 博士生在 RAI Institute 实习期间，让一台自行车机器人完成了全球首个无人辅助的 360 度前空翻。背后是一套名为「迭代运动模仿」的方法——从一段糟糕的轨迹开始，越迭代越强。"
+    }
+  },
+
+  {
     slug: "nvidia-cosmos-3-2026",
     date: "2026-06-04",
     category: "ai-robotics",
