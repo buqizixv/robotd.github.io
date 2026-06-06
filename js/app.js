@@ -461,7 +461,7 @@ function loadAndRenderArticle() {
   }
 
   // Fetch article JSON
-  var base = window._articleBase || '/article/';
+  var base = window._articleBase || '/articles/';
   var url = base + currentSlug + '.json';
   console.log('Fetching:', url);
   fetch(url)
