@@ -121,7 +121,7 @@ function head(title, desc, kw, canonical, ldStr, imgUrl, imgAlt) {
   h += '  <meta name="twitter:title" content="' + escapeHtml(title) + '">\n';
   h += '  <meta name="twitter:description" content="' + escapeHtml(desc) + '">\n';
   h += '  <link rel="stylesheet" href="/css/style.css?v=' + V + '">\n';
-  h += '  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 32 32\'><rect width=\'32\' height=\'32\' rx=\'8\' fill=\'%230284c7\'/><text x=\'16\' y=\'22\' text-anchor=\'middle\' font-size=\'18\' fill=\'white\' font-family=\'sans-serif\'>D</text></svg>">\n';
+  h += '  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=' + V + '">\n';
   h += '</head>\n<body>\n  <div id="app">\n';
   return h;
 }
