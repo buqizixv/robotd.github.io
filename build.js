@@ -120,6 +120,10 @@ function head(title, desc, kw, canonical, ldStr, imgUrl, imgAlt) {
   h += '  <meta name="twitter:card" content="summary_large_image">\n';
   h += '  <meta name="twitter:title" content="' + escapeHtml(title) + '">\n';
   h += '  <meta name="twitter:description" content="' + escapeHtml(desc) + '">\n';
+  h += '  <meta name="robots" content="index, follow">\n';
+  h += '  <meta name="theme-color" content="#0284c7">\n';
+  h += '  <meta property="og:site_name" content="' + SITE_NAME + '">\n';
+  h += '  <meta property="og:locale" content="en_US">\n'
   h += '  <link rel="stylesheet" href="/css/style.css?v=' + V + '">\n';
   h += '  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=' + V + '">\n';
   h += '</head>\n<body>\n  <div id="app">\n';
@@ -181,7 +185,6 @@ CATEGORIES.forEach(cat => {
   console.log('  OK  category/' + cat.slug + '/');
   count++;
 });
-
 // Article pages
 articles.forEach(a => {
   const dir = path.join(__dirname, 'article', a.slug);
@@ -209,7 +212,6 @@ articles.forEach(a => {
   console.log('  OK  article/' + a.slug + '/');
   count++;
 });
-
 // Home page
 const homeTitle = SITE_NAME + ' — Your Daily Pulse on Robotics & AI';
 const homeDesc = 'Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Bilingual EN / 中文.';
@@ -228,16 +230,17 @@ console.log('  OK  index.html (home)');
 count++;
 
 // Sitemap
-let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n\n';
+let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n';
 xml += '  <url><loc>' + BASE_URL + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>\n\n';
 CATEGORIES.forEach(c => {
   xml += '  <url><loc>' + BASE_URL + '/category/' + c.slug + '/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n\n';
 });
 articles.forEach(a => {
   const url = BASE_URL + '/article/' + a.slug + '/';
-  xml += '  <url><loc>' + url + '</loc><lastmod>' + a.date + '</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>\n';
-  xml += '    <xhtml:link rel="alternate" hreflang="en" href="' + url + '?lang=en"/>\n';
-  xml += '    <xhtml:link rel="alternate" hreflang="zh" href="' + url + '?lang=zh"/>\n  </url>\n\n';
+  xml += '  <url><loc>' + url + '</loc><lastmod>' + a.date + '</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>\n  </url>\n\n';
+
+
+
 });
 xml += '</urlset>\n';
 fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), xml, 'utf8');
@@ -338,5 +341,4 @@ fs.readdirSync(imgDir).forEach(f => {
   const warn = (fs.statSync(path.join(imgDir, f)).size > 300 * 1024) ? ' ⚠️  >300KB' : '';
   console.log('  ' + kb + ' KB  ' + f + warn);
 });
-
 console.log('\nDone. ' + count + ' pages generated.');
