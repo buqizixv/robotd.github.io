@@ -28,12 +28,13 @@ const ARTICLE_MANIFEST = [
     }
   },
 
+
   {
     slug: "bike-robot-front-flip-2026",
     date: "2026-06-05",
     category: "research",
     featured: true,
-    image: "image/自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动.gif",
+    image: "image/bicycle-robot-front-flip-icra-2026.gif",
     en: {
       title: "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
       summary: "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
@@ -204,21 +205,6 @@ const ARTICLE_MANIFEST = [
     }
   },
   {
-    slug: "unitree-gd01-mecha",
-    date: "2026-05-12",
-    category: "humanoid",
-    featured: true,
-    image: "image/宇树科技发布 GD01：全球首款量产载人变形机甲震撼亮相.jpeg",
-    en: {
-      title: "Unitree Unveils GD01: The World's First Mass-Produced Piloted Transforming Mecha",
-      summary: "Unitree Robotics shocks the world with GD01, a pilotable 3-meter-tall mecha that switches between bipedal and quadrupedal modes, priced at 3.9 million yuan — and the CEO personally piloted it on stage."
-    },
-    zh: {
-      title: "宇树科技发布 GD01：全球首款量产载人变形机甲震撼亮相",
-      summary: "宇树科技发布 GD01 载人变形机甲，高近 3 米、重 500 公斤，可在双足与四足模式间切换，售价 390 万元起。CEO 王兴兴亲自登车驾驶，全程实拍无 AI。"
-    }
-  },
-  {
     slug: "figure-02-bmw-production",
     date: "2026-05-18",
     category: "humanoid",
@@ -232,6 +218,22 @@ const ARTICLE_MANIFEST = [
       summary: "Figure AI 的 02 人形机器人已从试点测试阶段进入宝马南卡罗来纳州工厂的全面生产部署，这是汽车制造业首次实现商业规模的人形机器人劳动力。"
     }
   },
+  {
+    slug: "unitree-gd01-mecha",
+    date: "2026-05-12",
+    category: "humanoid",
+    featured: true,
+    image: "image/unitree-gd01-mecha.jpeg",
+    en: {
+      title: "Unitree Unveils GD01: The World's First Mass-Produced Piloted Transforming Mecha",
+      summary: "Unitree Robotics shocks the world with GD01, a pilotable 3-meter-tall mecha that switches between bipedal and quadrupedal modes, priced at 3.9 million yuan — and the CEO personally piloted it on stage."
+    },
+    zh: {
+      title: "宇树科技发布 GD01：全球首款量产载人变形机甲震撼亮相",
+      summary: "宇树科技发布 GD01 载人变形机甲，高近 3 米、重 500 公斤，可在双足与四足模式间切换，售价 390 万元起。CEO 王兴兴亲自登车驾驶，全程实拍无 AI。"
+    }
+  },
+
   {
     slug: "tesla-optimus-gen3-update",
     date: "2026-05-10",
@@ -279,7 +281,7 @@ const ARTICLE_MANIFEST = [
     date: "2026-05-05",
     category: "ai-robotics",
     featured: true,
-    image: "image/Google DeepMind 发布 RT-3 机器人基础模型：一个大脑控制几十种机器人，无需重新训练.jpeg",
+    image: "image/deepmind-rt-3.jpeg",
     en: {
       title: "Google DeepMind's RT-3 Robot Foundation Model: One Brain, Dozens of Robots, Zero Retraining",
       summary: "DeepMind unveils Robotics Transformer 3 (RT-3), a vision-language-action foundation model that controls robots from 8 different manufacturers without per-robot fine-tuning."
@@ -378,7 +380,7 @@ const ARTICLE_MANIFEST = [
     date: "2026-02-20",
     category: "research",
     featured: false,
-    image: "image/波士顿动力全电动 Atlas 展示惊人敏捷性：首个量产就绪演示发布.jpeg",
+    image: "image/boston-dynamics-atlas-electric-2026.jpeg",
     en: {
       title: "Boston Dynamics' All-Electric Atlas Shows Stunning Agility in First Production-Ready Demos",
       summary: "Boston Dynamics reveals production-ready electric Atlas performing parkour, heavy lifting, and autonomous factory work, proving the all-electric humanoid is ready for commercial deployment."

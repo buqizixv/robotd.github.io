@@ -3,7 +3,7 @@
   "date": "2026-05-05",
   "category": "ai-robotics",
   "featured": true,
-  "image": "image/Google DeepMind 发布 RT-3 机器人基础模型：一个大脑控制几十种机器人，无需重新训练.jpeg",
+  "image": "image/deepmind-rt-3.jpeg",
   "en": {
     "title": "Google DeepMind's RT-3 Robot Foundation Model: One Brain, Dozens of Robots, Zero Retraining",
     "summary": "DeepMind unveils Robotics Transformer 3 (RT-3), a vision-language-action foundation model that controls robots from 8 different manufacturers without per-robot fine-tuning, marking a turning point in generalist robot AI.",
