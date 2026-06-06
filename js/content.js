@@ -14,6 +14,21 @@ const CATEGORIES = [
 
 const ARTICLE_MANIFEST = [
   {
+    slug: "robot-data-wars-2026",
+    date: "2026-06-06",
+    category: "ai-robotics",
+    featured: true,
+    en: {
+      title: "The Robot Data Wars: Why Training Data, Not Model Architecture, Is Now the Moat in Embodied AI",
+      summary: "As foundation models converge on similar architectures, the real differentiator in robotics AI has shifted to who owns the largest, most diverse robot manipulation datasets — and the race is heating up."
+    },
+    zh: {
+      title: "机器人数据争夺战：为什么训练数据正在超越模型架构，成为具身智能的真正护城河",
+      summary: "当基础模型架构趋于收敛，机器人AI的真正分水岭转向了谁拥有最大、最多样的操作数据集——这场竞赛正在升温。"
+    }
+  },
+
+  {
     slug: "bike-robot-front-flip-2026",
     date: "2026-06-05",
     category: "research",
