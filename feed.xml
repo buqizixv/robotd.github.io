@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Robot D</title>
+  <subtitle>Your Daily Pulse on Robotics &amp; AI — Bilingual EN / 中文</subtitle>
+  <link href="https://robotd.net/feed.xml" rel="self"/>
+  <link href="https://robotd.net"/>
+  <id>https://robotd.net/</id>
+  <updated>2026-06-06T13:14:12.544Z</updated>
+  <author><name>Robot D</name></author>
+  <generator>Robot D Static Site Generator</generator>
+  <entry>
+    <title>The Robot Data Wars: Why Training Data, Not Model Architecture, Is Now the Moat in Embodied AI</title>
+    <link href="https://robotd.net/article/robot-data-wars-2026/"/>
+    <id>https://robotd.net/article/robot-data-wars-2026/</id>
+    <published>2026-06-06T00:00:00Z</published>
+    <updated>2026-06-06T00:00:00Z</updated>
+    <summary>In the two years since foundation models entered robotics, the conversation was dominated by architecture. Transformers, diffusion policies, Mixture-of-Experts, world models — every lab raced to publish the novel model design that would unlock general-purpose manipulation. But at ICRA 2026 in Atlanta last month, the narrative quietly flipped. The architecture wars are over, and the data wars have ...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.</title>
+    <link href="https://robotd.net/article/bike-robot-front-flip-2026/"/>
+    <id>https://robotd.net/article/bike-robot-front-flip-2026/</id>
+    <published>2026-06-05T00:00:00Z</published>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <summary>It takes a human BMX rider years of practice to muscle a bike through a full 360-degree front flip. The margin for error is razor-thin: mistime the tuck, overshoot the rotation, land even slightly off-axis, and the result is a crash. Now a bicycle robot in Cambridge, Massachusetts, has done it for the first time without a human in the loop, without tethers, and without a ramp.The achievement, pres...</summary>
+    <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+  <entry>
+    <title>BYD Officially Enters Humanoid Robotics: What It Means for the Industry</title>
+    <link href="https://robotd.net/article/byd-humanoid-robot-2026/"/>
+    <id>https://robotd.net/article/byd-humanoid-robot-2026/</id>
+    <published>2026-06-05T00:00:00Z</published>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <summary>China&apos;s largest electric vehicle manufacturer BYD has officially confirmed its entry into the humanoid robotics space, marking one of the most significant crosses over moves in the rapidly evolving embodied intelligence industry. The announcement, made by BYD Executive Vice President Li Ke, signals that the automotive giant is preparing to extend its ambitions from electric vehicles to general-pur...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>BYD Confirms Humanoid Robotics Division, June 2026</title>
+    <link href="https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/"/>
+    <id>https://robotd.net/article/byd-humanoid-robotics-confirmed-june-2026/</id>
+    <published>2026-06-05T00:00:00Z</published>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <summary>BYD has officially confirmed the establishment of a dedicated humanoid robotics division as of June 2026, signaling the electric vehicle giant&apos;s strategic expansion into embodied artificial intelligence. The new division will leverage BYD&apos;s expertise in battery technology, manufacturing scale, and supply chain integration to develop humanoid robots for industrial and commercial applications.This c...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>11 Minutes to a New Gait: The Algorithm That Lets Robots Evolve Past Their Own Damage</title>
+    <link href="https://robotd.net/article/rapid-neural-evolution-robot-gait-2026/"/>
+    <id>https://robotd.net/article/rapid-neural-evolution-robot-gait-2026/</id>
+    <published>2026-06-05T00:00:00Z</published>
+    <updated>2026-06-05T00:00:00Z</updated>
+    <summary>A six-legged robot loses function in one of its leg actuators. The controller it had been using — a neural network trained for hours in simulation — has no provision for this failure mode. The robot is unbalanced, one corner dragging, its symmetrical tripod gait broken. Eleven minutes later, it is walking again. Not limping. Not compensating by dragging the damaged leg. Walking — forward, stable, ...</summary>
+    <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+  <entry>
+    <title>The Omnimodel Is Here: Inside NVIDIA Cosmos 3, the Open Foundation for Physical AI</title>
+    <link href="https://robotd.net/article/nvidia-cosmos-3-2026/"/>
+    <id>https://robotd.net/article/nvidia-cosmos-3-2026/</id>
+    <published>2026-06-04T00:00:00Z</published>
+    <updated>2026-06-04T00:00:00Z</updated>
+    <summary>Jensen Huang has never been shy about making predictions, but at GTC Taipei on June 1, he made one that deserves close attention. Standing on stage at COMPUTEX 2026, he said the words: &quot;The big bang of physical AI is just around the corner.&quot; Then he unveiled the catalyst — NVIDIA Cosmos 3, the first fully open-source &quot;omnimodel&quot; for Physical AI, released under permissive licenses on Hugging Face a...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>The Pragmatist&apos;s Humanoid: Why Mercedes, Google, and Deere Are Betting on Apptronik&apos;s Apollo</title>
+    <link href="https://robotd.net/article/apptronik-apollo-warehouse-2026/"/>
+    <id>https://robotd.net/article/apptronik-apollo-warehouse-2026/</id>
+    <published>2026-06-02T00:00:00Z</published>
+    <updated>2026-06-02T00:00:00Z</updated>
+    <summary>In a GXO Logistics warehouse, a 5-foot-8, 160-pound humanoid robot is picking cases off a pallet. It has been doing this for hours. When its battery dips below threshold, a human worker swaps the pack — it takes under five minutes — and Apollo resumes work. No safety cage. No lockout procedure. Just a sensor-defined perimeter and a design philosophy rooted in a simple premise: if a robot is going ...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>NVIDIA, Unitree, and Sharpa Launch the First Open Humanoid Robot Reference Platform</title>
+    <link href="https://robotd.net/article/nvidia-unitree-open-humanoid-2026/"/>
+    <id>https://robotd.net/article/nvidia-unitree-open-humanoid-2026/</id>
+    <published>2026-06-02T00:00:00Z</published>
+    <updated>2026-06-02T00:00:00Z</updated>
+    <summary>Jensen Huang stood on the Computex Taipei stage on June 1 and held up what looked like a routine product slide. The audience was expecting chips. What they got instead was a full humanoid robot — not a concept rendering, not a video of a prototype, but a complete reference platform that any research institution can buy, modify, and build upon. The robot is six feet tall and weighs 150 pounds. Huan...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Agility&apos;s Digit Is the Only Humanoid Robot Actually Making Money in Warehouses Right Now</title>
+    <link href="https://robotd.net/article/agility-digit-warehouse-2026/"/>
+    <id>https://robotd.net/article/agility-digit-warehouse-2026/</id>
+    <published>2026-06-01T00:00:00Z</published>
+    <updated>2026-06-01T00:00:00Z</updated>
+    <summary>In February 2026, Toyota Motor Manufacturing Canada did something no other automaker had done before: it signed a commercial contract to put humanoid robots on the payroll. Not a pilot. Not a research partnership. Seven Agility Digit robots, leased under a Robots-as-a-Service agreement, now unload empty auto-parts totes from automated tuggers and reload full ones at the company&apos;s Woodstock, Ontari...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>OpenAI Enters the Humanoid Race: Sam Altman&apos;s Bet on a Robot in Every Home</title>
+    <link href="https://robotd.net/article/openai-robotics-2026/"/>
+    <id>https://robotd.net/article/openai-robotics-2026/</id>
+    <published>2026-06-01T00:00:00Z</published>
+    <updated>2026-06-01T00:00:00Z</updated>
+    <summary>June 1, 2026 will be remembered as the day the AI industry stopped treating the physical world as someone else&apos;s problem. Before most people had finished their Sunday coffee, two of the world&apos;s most valuable technology companies had independently signaled the same thing: software is no longer enough. Atoms matter now.Sam Altman posted on X that OpenAI Robotics is hiring. The roles are not research...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>1X&apos;s NEO Goes Mass-Production: The First US Humanoid Robot Factory Is Here, and It Changes Everything</title>
+    <link href="https://robotd.net/article/1x-neo-mass-production-2026/"/>
+    <id>https://robotd.net/article/1x-neo-mass-production-2026/</id>
+    <published>2026-05-31T00:00:00Z</published>
+    <updated>2026-05-31T00:00:00Z</updated>
+    <summary>In early May 2026, a 58,000-square-foot factory in Hayward, California began something no building in the United States has ever done: commercial mass production of humanoid robots. The company is 1X Technologies, the robot is NEO, and the implications reach far beyond a factory opening. What just happened in that nondescript East Bay industrial park is the moment humanoid robots stopped being sci...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Duke University&apos;s 20-Legged Argus Robot Shatters a Hidden Assumption in Robotics Design</title>
+    <link href="https://robotd.net/article/duke-argus-omnidirectional-robot-2026/"/>
+    <id>https://robotd.net/article/duke-argus-omnidirectional-robot-2026/</id>
+    <published>2026-05-31T00:00:00Z</published>
+    <updated>2026-05-31T00:00:00Z</updated>
+    <summary>Every robot you have ever seen has a front. Whether it is a humanoid striding forward, a quadruped trotting ahead, or a drone tilting into a turn, the mechanical world has inherited a deeply biological bias: there is a privileged direction. Sensors point forward. Drive trains push forward. When the robot needs to go somewhere else, it rotates — wasting time, energy, and situational awareness. On M...</summary>
+    <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+  <entry>
+    <title>Aquila Earth Sets Two World Records: Laser-Beamed Power Keeps a Robot Running for 24 Hours Straight</title>
+    <link href="https://robotd.net/article/aquila-earth-laser-power-2026/"/>
+    <id>https://robotd.net/article/aquila-earth-laser-power-2026/</id>
+    <published>2026-05-30T00:00:00Z</published>
+    <updated>2026-05-30T00:00:00Z</updated>
+    <summary>The dirty secret of robotics is batteries. No matter how intelligent the AI or how dexterous the gripper, every robot is ultimately a hostage to its power source. A warehouse robot stops dead when its battery drains. A delivery drone must turn back before it runs out of juice. An autonomous forklift loses an hour of productivity for every charge cycle. The entire promise of 24/7 autonomous operati...</summary>
+    <category term="industrial" label="Industrial Automation"/>
+  </entry>
+  <entry>
+    <title>A Seed-Sized Surgeon: NTU Singapore&apos;s 4.4mm Robot Packs Five Surgical Tools Into a Single Grain-Scale Body</title>
+    <link href="https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/"/>
+    <id>https://robotd.net/article/ntu-seed-sized-surgical-robot-2026/</id>
+    <published>2026-05-30T00:00:00Z</published>
+    <updated>2026-05-30T00:00:00Z</updated>
+    <summary>At just 4.4 millimeters — smaller than a grain of rice — a new surgical robot developed at Nanyang Technological University Singapore can move, cut, grasp, deliver drugs, and generate heat, switching between these five functions in under a second. Published in Advanced Science on May 28, 2026, the work represents what may be the most functionally versatile micro-robot ever built for medical applic...</summary>
+    <category term="medical" label="Medical Robotics"/>
+  </entry>
+  <entry>
+    <title>Jensen Huang Drops a $40 Trillion Number: NVIDIA&apos;s Robot Empire Is No Longer Just About Chips</title>
+    <link href="https://robotd.net/article/nvidia-gtc-2026-40t-robotics/"/>
+    <id>https://robotd.net/article/nvidia-gtc-2026-40t-robotics/</id>
+    <published>2026-05-30T00:00:00Z</published>
+    <updated>2026-05-30T00:00:00Z</updated>
+    <summary>When Jensen Huang walked onto the GTC 2026 stage in San Jose and spoke for nearly three hours, he wasn&apos;t selling GPUs. He was selling a future where every factory, every warehouse, every hospital, and every vehicle runs on NVIDIA software. And he put a number on it: $40 trillion — the total addressable market for robotics and automation, a figure so large it dwarfs the current global GDP of any si...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>Hyundai&apos;s Atlas Humanoid Robot Masters the Rabona Kick — and 33 Million People Can&apos;t Stop Watching</title>
+    <link href="https://robotd.net/article/hyundai-atlas-worldcup-2026/"/>
+    <id>https://robotd.net/article/hyundai-atlas-worldcup-2026/</id>
+    <published>2026-05-29T00:00:00Z</published>
+    <updated>2026-05-29T00:00:00Z</updated>
+    <summary>When Hyundai Motor acquired Boston Dynamics in 2020 for $1.1 billion, skeptics wondered what an automaker would do with a robotics lab famous for viral parkour videos. Five years later, the answer is playing out on screens worldwide: a next-generation all-electric Atlas robot, dribbling past defenders, threading passes, and pulling off a rabona kick so smooth that even Tottenham&apos;s Son Heung-min co...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>One Humanoid Robot Every 15 Minutes: ENGINEAI Opens China&apos;s First Mass-Production Humanoid Factory</title>
+    <link href="https://robotd.net/article/engineai-humanoid-factory-2026/"/>
+    <id>https://robotd.net/article/engineai-humanoid-factory-2026/</id>
+    <published>2026-05-28T00:00:00Z</published>
+    <updated>2026-05-28T00:00:00Z</updated>
+    <summary>The humanoid robot industry just passed a critical inflection point: from hand-built prototypes to assembly-line mass production. ENGINEAI, a Shenzhen-based robotics company, has opened a 129,000-square-foot smart manufacturing facility that can produce one T800 humanoid robot every 15 minutes — a cadence that would have been unthinkable just a year ago. Each unit passes 79 quality checks and 46 s...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Genesis AI Emerges From Stealth With $105M and a Robot Brain That Cooks, Plays Piano, and Cracks Eggs</title>
+    <link href="https://robotd.net/article/genesis-ai-gene-26-5/"/>
+    <id>https://robotd.net/article/genesis-ai-gene-26-5/</id>
+    <published>2026-05-26T00:00:00Z</published>
+    <updated>2026-05-26T00:00:00Z</updated>
+    <summary>While the robotics industry has made extraordinary strides in locomotion and navigation, one frontier has remained stubbornly out of reach: human-level dexterity. Robots can walk, run, and even backflip, but ask one to crack an egg, tie a knot, or pipette a liquid into a test tube, and you&apos;ll quickly see the limits of current technology. Genesis AI, a San Carlos and Paris-based startup that just e...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>Mitsubishi Electric Bets Big on Physical AI, Partners With Chiba Institute to Build Japan&apos;s Homegrown Robot Brain</title>
+    <link href="https://robotd.net/article/mitsubishi-physical-ai-2026/"/>
+    <id>https://robotd.net/article/mitsubishi-physical-ai-2026/</id>
+    <published>2026-05-26T00:00:00Z</published>
+    <updated>2026-05-26T00:00:00Z</updated>
+    <summary>Japan is making its most decisive move yet into the Physical AI arena. Mitsubishi Electric, the ¥5.9 trillion industrial giant, and Chiba Institute of Technology have signed a three-year basic agreement to co-research and develop homegrown Physical AI technologies — a direct signal that Japan intends to compete with American and Chinese players in the race to build the robot brain of the future.Th...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>Wing Launches World&apos;s First City-Wide Autonomous Drone Delivery Network in Tokyo</title>
+    <link href="https://robotd.net/article/wing-tokyo-drone-network-2026/"/>
+    <id>https://robotd.net/article/wing-tokyo-drone-network-2026/</id>
+    <published>2026-05-25T00:00:00Z</published>
+    <updated>2026-05-25T00:00:00Z</updated>
+    <summary>In a landmark moment for autonomous aviation, Alphabet subsidiary Wing Aviation has launched the world&apos;s first city-wide autonomous drone delivery network in Tokyo, Japan, serving approximately 10 million residents across the Greater Tokyo Area. The deployment, which went live on May 22, 2026, represents the largest-scale implementation of beyond-visual-line-of-sight (BVLOS) drone delivery ever at...</summary>
+    <category term="drones" label="Drones & UAVs"/>
+  </entry>
+  <entry>
+    <title>Magnetic Micro-Robots Deliver Chemotherapy Directly to Tumors in First Human Trial</title>
+    <link href="https://robotd.net/article/micro-robots-drug-delivery/"/>
+    <id>https://robotd.net/article/micro-robots-drug-delivery/</id>
+    <published>2026-05-20T00:00:00Z</published>
+    <updated>2026-05-20T00:00:00Z</updated>
+    <summary>One of the cruelest ironies of cancer treatment is that chemotherapy — the drugs meant to kill cancer cells — also causes tremendous damage to healthy tissue. Hair loss, nausea, neuropathy, and immune suppression are not side effects of the cancer; they are side effects of the treatment, caused by toxic drugs circulating throughout the entire body when they are only needed at the tumor site. For d...</summary>
+    <category term="medical" label="Medical Robotics"/>
+  </entry>
+  <entry>
+    <title>Figure 02 Humanoid Robot Enters Full Production at BMW Spartanburg Plant</title>
+    <link href="https://robotd.net/article/figure-02-bmw-production/"/>
+    <id>https://robotd.net/article/figure-02-bmw-production/</id>
+    <published>2026-05-18T00:00:00Z</published>
+    <updated>2026-05-18T00:00:00Z</updated>
+    <summary>The sight of a humanoid robot walking across a factory floor is no longer science fiction. On May 15, 2026, Figure AI and BMW jointly announced that the Figure 02 humanoid robot has completed its year-long pilot program and entered full production deployment at BMW&apos;s Spartanburg plant in South Carolina — the automaker&apos;s largest production facility worldwide. This marks the first time a general-pur...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Intuitive Surgical Unveils da Vinci Xi Successor with AI-Assisted Anatomy Recognition</title>
+    <link href="https://robotd.net/article/da-vinci-xi-successor/"/>
+    <id>https://robotd.net/article/da-vinci-xi-successor/</id>
+    <published>2026-05-12T00:00:00Z</published>
+    <updated>2026-05-12T00:00:00Z</updated>
+    <summary>Intuitive Surgical, the company that defined robotic surgery over the past two decades, has unveiled the successor to its da Vinci Xi platform at the 2026 Society of American Gastrointestinal and Endoscopic Surgeons (SAGES) annual meeting. The new system, temporarily designated the da Vinci XR (Extended Reality) pending FDA marketing clearance, represents the most significant update to the da Vinc...</summary>
+    <category term="medical" label="Medical Robotics"/>
+  </entry>
+  <entry>
+    <title>Unitree Unveils GD01: The World&apos;s First Mass-Produced Piloted Transforming Mecha</title>
+    <link href="https://robotd.net/article/unitree-gd01-mecha/"/>
+    <id>https://robotd.net/article/unitree-gd01-mecha/</id>
+    <published>2026-05-12T00:00:00Z</published>
+    <updated>2026-05-12T00:00:00Z</updated>
+    <summary>On May 12, 2026, Hangzhou-based Unitree Robotics did something that caught even the most jaded robotics observers off guard. The company best known for its agile quadruped robots — the B2, the Go2, the H1 humanoid — unveiled GD01, a vehicle-sized piloted mecha that stands nearly three meters tall, weighs 500 kilograms with a pilot on board, and can seamlessly switch between bipedal walking and qua...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Tesla Optimus Gen 3: New Dexterity Milestones and a Roadmap to Mass Production</title>
+    <link href="https://robotd.net/article/tesla-optimus-gen3-update/"/>
+    <id>https://robotd.net/article/tesla-optimus-gen3-update/</id>
+    <published>2026-05-10T00:00:00Z</published>
+    <updated>2026-05-10T00:00:00Z</updated>
+    <summary>At Tesla&apos;s 2026 AI Day presentation in Austin, Elon Musk unveiled the third generation of the Optimus humanoid robot, and the message was clear: this is no longer a research project. Gen 3 brings transformative improvements in hand dexterity, battery life, and AI reasoning — along with the most detailed production roadmap the company has ever shared. Perhaps most surprisingly, Tesla announced a ta...</summary>
+    <category term="humanoid" label="Humanoid Robots"/>
+  </entry>
+  <entry>
+    <title>Google DeepMind&apos;s RT-3 Robot Foundation Model: One Brain, Dozens of Robots, Zero Retraining</title>
+    <link href="https://robotd.net/article/deepmind-rt-3/"/>
+    <id>https://robotd.net/article/deepmind-rt-3/</id>
+    <published>2026-05-05T00:00:00Z</published>
+    <updated>2026-05-05T00:00:00Z</updated>
+    <summary>The holy grail of robot learning has always been the same: a single AI model that can control any robot to perform any task, without needing to be retrained for each new robot body or each new skill. On May 2, 2026, Google DeepMind&apos;s robotics team published RT-3 (Robotics Transformer 3), and early evidence suggests they may have achieved exactly that. In a preprint and accompanying video demonstra...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>MIT Soft Robotics Lab Develops Artificial Muscle That Matches Human Muscle Efficiency</title>
+    <link href="https://robotd.net/article/mit-soft-actuator-breakthrough/"/>
+    <id>https://robotd.net/article/mit-soft-actuator-breakthrough/</id>
+    <published>2026-04-30T00:00:00Z</published>
+    <updated>2026-04-30T00:00:00Z</updated>
+    <summary>For all the progress in robot AI and perception over the past decade, the physical hardware that moves robots — actuators — has remained stubbornly inferior to biological muscle. Electric motors are efficient but rigid and heavy. Hydraulic systems are powerful but leak, require bulky pumps, and are difficult to control with precision. Pneumatic artificial muscles are compliant and safe but notorio...</summary>
+    <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+  <entry>
+    <title>ABB Launches GoFa Pro: Next-Gen Collaborative Robots with AI-Powered Safety</title>
+    <link href="https://robotd.net/article/abb-collaborative-robots-2026/"/>
+    <id>https://robotd.net/article/abb-collaborative-robots-2026/</id>
+    <published>2026-04-22T00:00:00Z</published>
+    <updated>2026-04-22T00:00:00Z</updated>
+    <summary>ABB Robotics unveiled the GoFa Pro series on April 20, 2026, at the Hannover Messe industrial trade fair, and the centerpiece feature is a paradigm shift in robot safety. Traditional collaborative robots — cobots — achieve safety through inherent limitations: low speed, low payload, and force-limited joints. The GoFa Pro takes a different approach: it uses AI-powered vision and predictive modeling...</summary>
+    <category term="industrial" label="Industrial Automation"/>
+  </entry>
+  <entry>
+    <title>Amazon Sparrow Reaches 1 Billion Picks: Inside the AI That Powers the World&apos;s Largest Mobile Robot Fleet</title>
+    <link href="https://robotd.net/article/amazon-sparrow-warehouse/"/>
+    <id>https://robotd.net/article/amazon-sparrow-warehouse/</id>
+    <published>2026-04-15T00:00:00Z</published>
+    <updated>2026-04-15T00:00:00Z</updated>
+    <summary>In April 2026, Amazon quietly reached a milestone that says as much about the state of AI as it does about logistics: the Sparrow robotic picking system, deployed across the company&apos;s worldwide fulfillment network, has now processed over one billion individual items. To put that number in perspective, it took Amazon&apos;s human workforce approximately 15 years to reach the cumulative one-billion-pick ...</summary>
+    <category term="industrial" label="Industrial Automation"/>
+  </entry>
+  <entry>
+    <title>NVIDIA GR00T Goes Public: The Generalist Robot AI Platform Now Open to Developers Worldwide</title>
+    <link href="https://robotd.net/article/nvidia-groot-2026/"/>
+    <id>https://robotd.net/article/nvidia-groot-2026/</id>
+    <published>2026-04-08T00:00:00Z</published>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>When NVIDIA CEO Jensen Huang announced Project GR00T at GTC 2024, it sounded like a moonshot: a generalist foundation model for humanoid robots, trained on a massive simulation infrastructure, that would enable any robot to understand natural language and learn new skills by watching humans. Two years later, GR00T has evolved from a research project into a shipping product. On April 5, 2026, NVIDI...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
+  <entry>
+    <title>Zipline Expands Drone Delivery to 50 US Cities, Launches Next-Gen Platform 3</title>
+    <link href="https://robotd.net/article/zipline-drone-delivery-2026/"/>
+    <id>https://robotd.net/article/zipline-drone-delivery-2026/</id>
+    <published>2026-03-28T00:00:00Z</published>
+    <updated>2026-03-28T00:00:00Z</updated>
+    <summary>Zipline, the drone delivery company that built its reputation delivering blood and medical supplies in Rwanda and Ghana, is bringing its technology home to America at unprecedented scale. On March 25, 2026, Zipline announced plans to expand its US operations to 50 metropolitan areas by the end of 2026, backed by a new FAA regulatory framework for beyond-visual-line-of-sight (BVLOS) drone operation...</summary>
+    <category term="drones" label="Drones & UAVs"/>
+  </entry>
+  <entry>
+    <title>DJI Dock 3: The Autonomous Drone-in-a-Box That Runs 24/7 Without Human Intervention</title>
+    <link href="https://robotd.net/article/dji-dock-3/"/>
+    <id>https://robotd.net/article/dji-dock-3/</id>
+    <published>2026-03-14T00:00:00Z</published>
+    <updated>2026-03-14T00:00:00Z</updated>
+    <summary>DJI, the Shenzhen-based company that dominates the global drone market, has released the third generation of its autonomous drone docking station, the DJI Dock 3. The product category — &apos;drone-in-a-box&apos; — represents a fundamental shift in how drones are used for commercial applications. Instead of requiring a human pilot to travel to a site, set up the drone, swap batteries, and manually offload d...</summary>
+    <category term="drones" label="Drones & UAVs"/>
+  </entry>
+  <entry>
+    <title>Boston Dynamics&apos; All-Electric Atlas Shows Stunning Agility in First Production-Ready Demos</title>
+    <link href="https://robotd.net/article/boston-dynamics-atlas-electric-update/"/>
+    <id>https://robotd.net/article/boston-dynamics-atlas-electric-update/</id>
+    <published>2026-02-20T00:00:00Z</published>
+    <updated>2026-02-20T00:00:00Z</updated>
+    <summary>When Boston Dynamics retired the hydraulic Atlas in early 2024, then unveiled an all-electric successor just 24 hours later, the robotics world was stunned — first by the retirement of the most famous humanoid robot in existence, then by the audacity of immediately replacing it. But the initial electric Atlas reveal showed only a brief, carefully choreographed stand-up sequence. For two years, the...</summary>
+    <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+</feed>

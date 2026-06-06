@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE_URL = 'https://robotd.net';
 const SITE_NAME = 'Robot D';
-const V = '32';
+const V = '33';
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -150,16 +150,19 @@ let count = 0;
 
 // Category pages
 CATEGORIES.forEach(cat => {
-  if (cat.slug === 'all') return;
   const dir = path.join(__dirname, 'category', cat.slug);
   fs.mkdirSync(dir, { recursive: true });
 
   // English
-  let en = head(cat.en + ' — ' + SITE_NAME, 'Latest ' + cat.en + ' news. Bilingual EN/中文.', cat.en.toLowerCase() + ', robotics', BASE_URL + '/category/' + cat.slug + '/', jsonLd('website'), '', '');
+  let enTitle = cat.slug === 'all' ? 'All Articles — ' + SITE_NAME : cat.en + ' — ' + SITE_NAME;
+  let enDesc = cat.slug === 'all' ? 'All robotics & AI news articles. Bilingual EN/中文.' : 'Latest ' + cat.en + ' news. Bilingual EN/中文.';
+  let enKw = cat.slug === 'all' ? 'robotics, AI, all articles' : cat.en.toLowerCase() + ', robotics';
+  let enArticles = cat.slug === 'all' ? articles : articles.filter(a => a.category === cat.slug);
+  let en = head(enTitle, enDesc, enKw, BASE_URL + '/category/' + cat.slug + '/', jsonLd('website'), '', '');
   en += shell(catTabHtml(cat.slug, 'en') +
     '<main class="main-content"><div class="home-layout"><div class="main-col">' +
     catTabHtml(cat.slug, 'en') + '<h2>' + cat.en + '</h2>' +
-    '<div class="news-list">' + articles.filter(a => a.category === cat.slug).map(a => newsItemHtml(a, 'en')).join('') + '</div>' +
+    '<div class="news-list">' + enArticles.map(a => newsItemHtml(a, 'en')).join('') + '</div>' +
     '</div>' + sidebarHtml(articles, 'en') + '</div></main>');
   en += footer();
   fs.writeFileSync(path.join(dir, 'index.html'), en, 'utf8');
@@ -169,7 +172,7 @@ CATEGORIES.forEach(cat => {
   zh += shell(catTabHtml(cat.slug, 'zh') +
     '<main class="main-content"><div class="home-layout"><div class="main-col">' +
     catTabHtml(cat.slug, 'zh') + '<h2>' + cat.zh + '</h2>' +
-    '<div class="news-list">' + articles.filter(a => a.category === cat.slug).map(a => newsItemHtml(a, 'zh')).join('') + '</div>' +
+    '<div class="news-list">' + enArticles.map(a => newsItemHtml(a, 'zh')).join('') + '</div>' +
     '</div>' + sidebarHtml(articles, 'zh') + '</div></main>');
   zh += footer();
   // We only generate one file per directory — lang is handled by the SPA boot
@@ -228,7 +231,6 @@ count++;
 let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n\n';
 xml += '  <url><loc>' + BASE_URL + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>\n\n';
 CATEGORIES.forEach(c => {
-  if (c.slug === 'all') return;
   xml += '  <url><loc>' + BASE_URL + '/category/' + c.slug + '/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n\n';
 });
 articles.forEach(a => {
@@ -294,6 +296,39 @@ const monthCount = Object.keys(dateMap).filter(k => k.split('/').length === 2).l
 const dayCount = Object.keys(dateMap).filter(k => k.split('/').length === 3).length;
 console.log('  OK  api/<YYYY>/<MM>.json  (' + monthCount + ' months)');
 console.log('  OK  api/<YYYY>/<MM>/<DD>.json  (' + dayCount + ' days)');
+
+
+  // RSS Feed — Atom 1.0
+  function escapeXml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+  }
+  const feedUpdated = new Date().toISOString();
+  let rss = '<?xml version="1.0" encoding="UTF-8"?>\n';
+  rss += '<feed xmlns="http://www.w3.org/2005/Atom">\n';
+  rss += '  <title>' + SITE_NAME + '</title>\n';
+  rss += '  <subtitle>Your Daily Pulse on Robotics &amp; AI — Bilingual EN / 中文</subtitle>\n';
+  rss += '  <link href="' + BASE_URL + '/feed.xml" rel="self"/>\n';
+  rss += '  <link href="' + BASE_URL + '"/>\n';
+  rss += '  <id>' + BASE_URL + '/</id>\n';
+  rss += '  <updated>' + feedUpdated + '</updated>\n';
+  rss += '  <author><name>' + SITE_NAME + '</name></author>\n';
+  rss += '  <generator>Robot D Static Site Generator</generator>\n';
+  articles.forEach(a => {
+    const articleUrl = BASE_URL + '/article/' + a.slug + '/';
+    const enBody = a.en.body.replace(/<[^>]+>/g, '').substring(0, 400) + '...';
+    rss += '  <entry>\n';
+    rss += '    <title>' + escapeXml(a.en.title) + '</title>\n';
+    rss += '    <link href="' + articleUrl + '"/>\n';
+    rss += '    <id>' + articleUrl + '</id>\n';
+    rss += '    <published>' + a.date + 'T00:00:00Z</published>\n';
+    rss += '    <updated>' + a.date + 'T00:00:00Z</updated>\n';
+    rss += '    <summary>' + escapeXml(enBody) + '</summary>\n';
+    rss += '    <category term="' + a.category + '" label="' + catLabel(a.category, 'en') + '"/>\n';
+    rss += '  </entry>\n';
+  });
+  rss += '</feed>\n';
+  fs.writeFileSync(path.join(__dirname, 'feed.xml'), rss, 'utf8');
+  console.log('  OK  feed.xml (' + articles.length + ' entries)');
 
 // Check images
 console.log('\n--- Images ---');

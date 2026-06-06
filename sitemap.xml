@@ -4,6 +4,8 @@
 
   <url><loc>https://robotd.net/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
 
+  <url><loc>https://robotd.net/category/all/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
   <url><loc>https://robotd.net/category/humanoid/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
   <url><loc>https://robotd.net/category/industrial/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

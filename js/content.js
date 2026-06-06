@@ -174,6 +174,22 @@ const ARTICLE_MANIFEST = [
     }
   },
   {
+    slug: "genesis-ai-gene-26-5",
+    date: "2026-05-26",
+    category: "ai-robotics",
+    featured: true,
+    image: "image/genesis-ai-gene-26-5.webp",
+    en: {
+      title: "Genesis AI Emerges From Stealth With $105M and a Robot Brain That Cooks, Plays Piano, and Cracks Eggs",
+      summary: "Genesis AI unveils GENE-26.5, a vision-language-action foundation model that gives robots human-level dexterity — demonstrated by cooking a 20-step meal, playing piano, and solving a Rubik's Cube one-handed."
+    },
+    zh: {
+      title: "Genesis AI 携 1.05 亿美元融资从隐身模式浮出：能做饭、弹钢琴、单手解魔方的机器人大脑来了",
+      summary: "Genesis AI 发布 GENE-26.5 视觉-语言-动作基础模型，赋予机器人人类级灵巧操作能力——现场演示了烹饪 20 道工序早餐、高速弹钢琴、单手解魔方，并获 1.05 亿美元种子轮融资。"
+    }
+  },
+
+  {
     slug: "wing-tokyo-drone-network-2026",
     date: "2026-05-25",
     category: "drones",
@@ -370,21 +386,6 @@ const ARTICLE_MANIFEST = [
     zh: {
       title: "波士顿动力全电动 Atlas 展示惊人敏捷性：首个量产就绪演示发布",
       summary: "波士顿动力发布量产就绪的电动 Atlas 跑酷、重物搬运和自主工厂作业演示视频，证明全电动人形机器人已准备好商业部署。"
-    }
-  },
-  {
-    slug: "genesis-ai-gene-26-5",
-    date: "2026-05-26",
-    category: "ai-robotics",
-    featured: true,
-    image: "image/Genesis AI 携 1.05 亿美元融资从隐身模式浮出：能做饭、弹钢琴、单手解魔方的机器人大脑来了.png",
-    en: {
-      title: "Genesis AI Emerges From Stealth With $105M and a Robot Brain That Cooks, Plays Piano, and Cracks Eggs",
-      summary: "Genesis AI unveils GENE-26.5, a vision-language-action foundation model that gives robots human-level dexterity — demonstrated by cooking a 20-step meal, playing piano, and solving a Rubik's Cube one-handed."
-    },
-    zh: {
-      title: "Genesis AI 携 1.05 亿美元融资从隐身模式浮出：能做饭、弹钢琴、单手解魔方的机器人大脑来了",
-      summary: "Genesis AI 发布 GENE-26.5 视觉-语言-动作基础模型，赋予机器人人类级灵巧操作能力——现场演示了烹饪 20 道工序早餐、高速弹钢琴、单手解魔方，并获 1.05 亿美元种子轮融资。"
     }
   },
   {

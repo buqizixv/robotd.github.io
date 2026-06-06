@@ -43,7 +43,7 @@ function setMeta(id, attr, val) {
 }
 
 function updateMetaTags(type, article) {
-  var baseUrl = 'https://robotd.com';
+  var baseUrl = 'https://robotd.net';
   var homeTitle = SITE_NAME + ' — ' + t('site_tagline');
   var homeDesc = t('hero_title') + '. ' + t('hero_sub');
   var homeKw = 'robotics news, AI news, humanoid robots, industrial automation, drones, medical robotics, robot research, 机器人新闻, 人工智能';
@@ -82,7 +82,7 @@ function updateMetaTags(type, article) {
   } else if (type === 'article' && article) {
     var meta = article[currentLang];
     document.title = meta.title + ' — ' + SITE_NAME;
-    var articleUrl = baseUrl + '/articles/' + article.slug + '.html';
+    var articleUrl = baseUrl + '/article/' + article.slug + '/';
     setMeta('meta-desc', 'content', meta.summary);
     var kw = (meta.keywords || '') + ', robotics, Robot D';
     setMeta('meta-keywords', 'content', kw);
@@ -117,7 +117,7 @@ function injectJsonLd(type, article) {
     scriptEl.id = 'json-ld';
     document.head.appendChild(scriptEl);
   }
-  var baseUrl = 'https://robotd.com';
+  var baseUrl = 'https://robotd.net';
   var ld;
 
   if (type === 'website' || !article) {
@@ -140,7 +140,7 @@ function injectJsonLd(type, article) {
       dateModified: article.date,
       author: { '@type': 'Organization', name: 'Robot D', url: baseUrl + '/' },
       publisher: { '@type': 'Organization', name: 'Robot D', url: baseUrl + '/' },
-      mainEntityOfPage: { '@type': 'WebPage', '@id': baseUrl + '/articles/' + article.slug + '.html' },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': baseUrl + '/article/' + article.slug + '/' },
       inLanguage: ['en', 'zh'],
       about: { '@type': 'Thing', name: article.category }
     };
@@ -310,7 +310,7 @@ function renderSidebar() {
       '<div class="carousel-track" id="carousel-track">';
     slides.forEach(function(s, i) {
       var meta = s[currentLang];
-      carouselHtml += '<a href="/article/' + s.slug + '" class="carousel-slide' + (i === 0 ? ' active' : '') + '" data-index="' + i + '">' +
+      carouselHtml += '<a href="/article/' + s.slug + '/" class="carousel-slide' + (i === 0 ? ' active' : '') + '" data-index="' + i + '">' +
         '<img src="/' + s.image + '" alt="' + (meta.imageAlt || meta.title) + '" loading="lazy">' +
         '<div class="carousel-caption"><span>' + meta.title + '</span></div>' +
         '</a>';
@@ -461,7 +461,7 @@ function loadAndRenderArticle() {
   }
 
   // Fetch article JSON
-  var base = window._articleBase || '/articles/';
+  var base = window._articleBase || '/article/';
   var url = base + currentSlug + '.json';
   console.log('Fetching:', url);
   fetch(url)
