@@ -140,7 +140,16 @@ let content = fs.readFileSync(contentPath, 'utf8');
 
 // Normalize line endings to LF for consistent processing, but preserve CRLF in final output
 const hasCRLF = content.includes('\r\n');
-const normalized = content.replace(/\r\n/g, '\n');
+let normalized = content.replace(/\r\n/g, '\n');
+
+// Remove existing entry for this slug if it already exists (update, not duplicate)
+const slugEscaped = slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const existingPattern = new RegExp('\\n  \\{[^}]*?slug: "' + slugEscaped + '"[\\s\\S]*?\\n  \\},?');
+const existingMatch = normalized.match(existingPattern);
+if (existingMatch) {
+  normalized = normalized.replace(existingMatch[0], '');
+  console.log('✓ Removed existing entry for: ' + slug);
+}
 
 // Find all entry positions and their dates
 const entryRegex = /    slug: "([^"]+)",\n    date: "([^"]+)"/g;

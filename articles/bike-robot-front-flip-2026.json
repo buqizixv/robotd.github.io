@@ -3,6 +3,7 @@
   "date": "2026-06-05",
   "category": "research",
   "featured": true,
+  "image": "image/自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动.gif",
   "en": {
     "title": "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
     "summary": "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories.",

@@ -33,6 +33,7 @@ const ARTICLE_MANIFEST = [
     date: "2026-06-05",
     category: "research",
     featured: true,
+    image: "image/自行车机器人完成全球首个前空翻：不完美的起点，迭代出的极限运动.gif",
     en: {
       title: "A Bicycle Robot Did a Front Flip. The Hard Part Was Landing.",
       summary: "Georgia Tech and RAI Institute's bicycle robot achieves world-first unassisted front flip at ICRA 2026 via Iterative Motion Imitation, learning from deliberately imperfect trajectories."
@@ -70,21 +71,6 @@ const ARTICLE_MANIFEST = [
     zh: {
       title: "Apollo 落地：人形机器人赛道上，那个最务实的选手悄悄攒了一手好牌",
       summary: "2026 年，Apptronik 的 Apollo 人形机器人在奔驰和 GXO 仓库实地部署，背后是谷歌、奔驰、约翰迪尔和 9.35 亿美元融资。这家 NASA 技术转化的创业公司正在用人形机器人的务实路线赢得工业界的信任。"
-    }
-  },
-
-  {
-    slug: "nvidia-unitree-open-humanoid-2026",
-    date: "2026-06-02",
-    category: "humanoid",
-    featured: true,
-    en: {
-      title: "NVIDIA, Unitree, and Sharpa Launch the First Open Humanoid Robot Reference Platform",
-      summary: "At Computex 2026, NVIDIA partnered with China's Unitree Robotics and Singapore's Sharpa to release the Isaac GR00T Reference Humanoid — an open, full-stack platform for academic research that could become the Android of humanoid robotics."
-    },
-    zh: {
-      title: "英伟达、宇树、Sharpa 联合发布首个开源人形机器人参考平台：机器人界的 Android 时刻",
-      summary: "2026 年 6 月 1 日，英伟达在 Computex Taipei 宣布与宇树科技和新加坡 Sharpa 合作，推出 Isaac GR00T 参考人形机器人平台——首个面向学术研究的开源全栈人形机器人方案。"
     }
   },
 
