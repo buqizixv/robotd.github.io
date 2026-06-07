@@ -2,8 +2,23 @@
   "site": "Robot D",
   "url": "https://robotd.net",
   "updated": "2026-06-07",
-  "total": 32,
+  "total": 33,
   "articles": [
+    {
+      "slug": "eternal-ag-harvester-greenhouse-2026",
+      "date": "2026-06-07",
+      "category": "industrial",
+      "featured": true,
+      "url": "https://robotd.net/article/eternal-ag-harvester-greenhouse-2026/",
+      "en": {
+        "title": "The Robot That Works 22-Hour Shifts: Inside Eternal.ag's Bid to Automate the Greenhouse",
+        "summary": "German startup Eternal.ag deploys fully autonomous tomato-harvesting robots in Dutch greenhouses, raises €8M, and partners with seed giant Rijk Zwaan to solve Europe's agricultural labor crisis from the root up."
+      },
+      "zh": {
+        "title": "22 小时不停歇的温室机器人：德国创业公司 Eternal.ag 如何用全自主机器人解决欧洲农业用工荒",
+        "summary": "德国农业科技公司 Eternal.ag 在荷兰温室部署全自主番茄采摘机器人，获 800 万欧元融资，并与种子巨头 Rijk Zwaan 合作，试图从作物基因层面推进温室自动化。"
+      }
+    },
     {
       "slug": "robot-data-wars-2026",
       "date": "2026-06-06",

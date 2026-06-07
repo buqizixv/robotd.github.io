@@ -5,9 +5,18 @@
   <link href="https://robotd.net/feed.xml" rel="self"/>
   <link href="https://robotd.net"/>
   <id>https://robotd.net/</id>
-  <updated>2026-06-07T05:36:36.843Z</updated>
+  <updated>2026-06-07T07:05:36.641Z</updated>
   <author><name>Robot D</name></author>
   <generator>Robot D Static Site Generator</generator>
+  <entry>
+    <title>The Robot That Works 22-Hour Shifts: Inside Eternal.ag&apos;s Bid to Automate the Greenhouse</title>
+    <link href="https://robotd.net/article/eternal-ag-harvester-greenhouse-2026/"/>
+    <id>https://robotd.net/article/eternal-ag-harvester-greenhouse-2026/</id>
+    <published>2026-06-07T00:00:00Z</published>
+    <updated>2026-06-07T00:00:00Z</updated>
+    <summary>In a greenhouse complex in Zeeland, in the southwest corner of the Netherlands, a robot is picking tomatoes. It has been doing this since early morning. It will continue past midnight, stopping only briefly for maintenance, before resuming at dawn. The robot, built by the German startup Eternal.ag, harvests truss tomatoes at a steady rate of roughly 120 trusses per hour, using computer vision to a...</summary>
+    <category term="industrial" label="Industrial Automation"/>
+  </entry>
   <entry>
     <title>The Robot Data Wars: Why Training Data, Not Model Architecture, Is Now the Moat in Embodied AI</title>
     <link href="https://robotd.net/article/robot-data-wars-2026/"/>
