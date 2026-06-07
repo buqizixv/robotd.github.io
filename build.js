@@ -102,7 +102,7 @@ function jsonLd(type, article) {
 
 // ---- Page templates ----
 function head(title, desc, canonical, ldStr, imgUrl, imgAlt) {
-  let h = '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
+  let h = '<!DOCTYPE html>\n<html lang="en">\n<head>\n<!-- Google tag (gtag.js) -->\n<script async src="https://www.googletagmanager.com/gtag/js?id=G-CY2W77XP5Q"></script>\n<script>\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag(\'js\', new Date());\ngtag(\'config\', \'G-CY2W77XP5Q\');\n</script>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
   h += '  <title>' + escapeHtml(title) + '</title>\n';
   h += '  <meta name="description" content="' + escapeHtml(desc) + '">\n';
   h += '  <link rel="canonical" href="' + canonical + '">\n';
