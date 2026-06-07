@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE_URL = 'https://robotd.net';
 const SITE_NAME = 'Robot D';
-const V = '35';
+const V = '36';
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -101,11 +101,10 @@ function jsonLd(type, article) {
 }
 
 // ---- Page templates ----
-function head(title, desc, kw, canonical, ldStr, imgUrl, imgAlt) {
+function head(title, desc, canonical, ldStr, imgUrl, imgAlt) {
   let h = '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n';
   h += '  <title>' + escapeHtml(title) + '</title>\n';
   h += '  <meta name="description" content="' + escapeHtml(desc) + '">\n';
-  h += '  <meta name="keywords" content="' + escapeHtml(kw) + '">\n';
   h += '  <link rel="canonical" href="' + canonical + '">\n';
   if (ldStr) h += '  <script type="application/ld+json">\n' + ldStr + '\n  </' + 'script>\n';
   h += '  <meta property="og:title" content="' + escapeHtml(title) + '">\n';
@@ -160,9 +159,8 @@ CATEGORIES.forEach(cat => {
   // English
   let enTitle = cat.slug === 'all' ? 'All Articles — ' + SITE_NAME : cat.en + ' — ' + SITE_NAME;
   let enDesc = cat.slug === 'all' ? 'All robotics & AI news articles. Bilingual EN/中文.' : 'Latest ' + cat.en + ' news. Bilingual EN/中文.';
-  let enKw = cat.slug === 'all' ? 'robotics, AI, all articles' : cat.en.toLowerCase() + ', robotics';
   let enArticles = cat.slug === 'all' ? articles : articles.filter(a => a.category === cat.slug);
-  let en = head(enTitle, enDesc, enKw, BASE_URL + '/category/' + cat.slug + '/', jsonLd('website'), '', '');
+  let en = head(enTitle, enDesc, BASE_URL + '/category/' + cat.slug + '/', jsonLd('website'), '', '');
   en += shell(catTabHtml(cat.slug, 'en') +
     '<main class="main-content"><div class="home-layout"><div class="main-col">' +
     catTabHtml(cat.slug, 'en') + '<h2>' + cat.en + '</h2>' +
@@ -172,7 +170,7 @@ CATEGORIES.forEach(cat => {
   fs.writeFileSync(path.join(dir, 'index.html'), en, 'utf8');
 
   // Chinese
-  let zh = head(cat.zh + ' — ' + SITE_NAME, '最新' + cat.zh + '新闻。双语 EN/中文 报道。', cat.zh + ', 机器人', BASE_URL + '/category/' + cat.slug + '/?lang=zh', jsonLd('website'), '', '');
+  let zh = head(cat.zh + ' — ' + SITE_NAME, '最新' + cat.zh + '新闻。双语 EN/中文 报道。', BASE_URL + '/category/' + cat.slug + '/?lang=zh', jsonLd('website'), '', '');
   zh += shell(catTabHtml(cat.slug, 'zh') +
     '<main class="main-content"><div class="home-layout"><div class="main-col">' +
     catTabHtml(cat.slug, 'zh') + '<h2>' + cat.zh + '</h2>' +
@@ -191,13 +189,12 @@ articles.forEach(a => {
   fs.mkdirSync(dir, { recursive: true });
 
   const en = a.en, zh = a.zh;
-  const kw = (en.keywords || 'robotics, AI') + ', Robot D';
   const articleUrl = BASE_URL + '/article/' + a.slug + '/';
   let imgUrl = a.image ? BASE_URL + '/' + a.image.replace(/\\/g, '/') : '';
 
   const ldStr = jsonLd('article', a);
 
-  let html = head(en.title + ' — ' + SITE_NAME, en.summary, kw, articleUrl, ldStr, imgUrl, en.imageAlt || en.title);
+  let html = head(en.title + ' — ' + SITE_NAME, en.summary, articleUrl, ldStr, imgUrl, en.imageAlt || en.title);
   html += shell('<main class="main-content"><article class="content-page">' +
     '<nav class="breadcrumb"><a href="/">Home</a> / <a href="/category/' + a.category + '/">' + catLabel(a.category, 'en') + '</a> / <span>' + escapeHtml(en.title) + '</span></nav>' +
     (a.image ? '<figure class="article-image-wrap"><img src="/' + a.image + '" alt="' + escapeHtml(en.imageAlt || en.title) + '" class="article-image" loading="lazy" width="1200" height="675"></figure>' : '') +
@@ -215,8 +212,7 @@ articles.forEach(a => {
 // Home page
 const homeTitle = SITE_NAME + ' — Your Daily Pulse on Robotics & AI';
 const homeDesc = 'Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Bilingual EN / 中文.';
-const homeKw = 'robotics news, AI news, humanoid robots, industrial automation, drones, medical robotics, Robot D, 机器人新闻';
-let home = head(homeTitle, homeDesc, homeKw, BASE_URL + '/', jsonLd('website'), '', '');
+let home = head(homeTitle, homeDesc, BASE_URL + '/', jsonLd('website'), '', '');
 home += shell('<section class="hero"><h1>Your Daily Pulse on Robotics & AI — Robot D</h1>' +
   '<p class="hero-sub">Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Updated weekly.</p>' +
   '<div class="hero-search"><input type="text" id="search-input" class="search-input" placeholder="Search articles..." autocomplete="off"></div></section>' +
