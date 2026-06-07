@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE_URL = 'https://robotd.net';
 const SITE_NAME = 'Robot D';
-const V = '37';
+const V = '38';
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -124,7 +124,7 @@ function head(title, desc, canonical, ldStr, imgUrl, imgAlt) {
   h += '  <meta property="og:site_name" content="' + SITE_NAME + '">\n';
   h += '  <meta property="og:locale" content="en_US">\n'
   h += '  <link rel="stylesheet" href="/css/style.css?v=' + V + '">\n';
-  h += '  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=' + V + '">\n';
+  h += '  <link rel="icon" type="image/jpeg" href="/image/favicon.jpg?v=' + V + '">\n';
   h += '</head>\n<body>\n  <div id="app">\n';
   return h;
 }
@@ -135,7 +135,7 @@ function footer() {
 
 function shell(inner) {
   return '<header class="site-header"><div class="header-inner">' +
-    '<a href="/" class="logo">' + SITE_NAME + '</a>' +
+    '<a href="/" class="logo"><img src="/image/logo.jpg" alt="' + SITE_NAME + '" class="logo-img"></a>' +
     '<button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>' +
     '<nav class="main-nav" id="main-nav">' +
       '<a href="/">Home</a><a href="/category/all/">Articles</a>' +
@@ -213,9 +213,10 @@ articles.forEach(a => {
 const homeTitle = SITE_NAME + ' — Your Daily Pulse on Robotics & AI';
 const homeDesc = 'Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Bilingual EN / 中文.';
 let home = head(homeTitle, homeDesc, BASE_URL + '/', jsonLd('website'), '', '');
-home += shell('<section class="hero"><h1>Your Daily Pulse on Robotics & AI — Robot D</h1>' +
+home += shell('<section class="hero"><div class="hero-content"><div class="hero-text"><h1>Your Daily Pulse on Robotics & AI — Robot D</h1>' +
   '<p class="hero-sub">Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Updated weekly.</p>' +
-  '<div class="hero-search"><input type="text" id="search-input" class="search-input" placeholder="Search articles..." autocomplete="off"></div></section>' +
+  '<div class="hero-stats"><span class="hero-stat"><strong>33</strong> Articles</span><span class="hero-stat"><strong>7</strong> Categories</span><span class="hero-stat"><strong>Bilingual</strong> EN / 中文</span></div>' +
+  '<div class="hero-search"><input type="text" id="search-input" class="search-input" placeholder="Search articles..." autocomplete="off"></div></div><div class="hero-logo"><div class="hero-dot"></div><div class="hero-dot"></div><div class="hero-dot"></div><div class="hero-dot"></div></div></div></section>' +
   '<main class="main-content"><div class="home-layout"><div class="main-col">' +
   catTabHtml('all', 'en') +
   '<div class="news-list">' + articles.map(a => newsItemHtml(a, 'en')).join('') + '</div>' +
