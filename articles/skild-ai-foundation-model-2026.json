@@ -1,0 +1,21 @@
+{
+  "slug": "skild-ai-foundation-model-2026",
+  "date": "2026-06-08",
+  "category": "ai-robotics",
+  "featured": false,
+  "image": "",
+  "en": {
+    "title": "Skild AI Unleashes the First Universal Robot Brain",
+    "summary": "Skild AI launches Skild Brain 1.0, a 500-billion-parameter robot foundation model trained on 10,000 robots.",
+    "keywords": "Skild AI, robot foundation model, general-purpose robotics, embodied AI",
+    "imageAlt": "Skild AI robot foundation model visualization",
+    "body": "<p>In June 2026, Skild AI released Skild Brain 1.0, a single AI model that can control any robot without retraining.</p><h2>The Scale of the Bet</h2><p>The model was trained on data from 10,000 robots across 200+ hardware platforms with 500 billion parameters. It was trained on 12,000 NVIDIA H200 GPUs over five months. The training dataset encompasses 2.8 billion robot trajectories from real robots.</p><h2>How It Works</h2><p>Skild Brain serves as a shared representation layer converting task descriptions into hardware-agnostic action tokens. It takes 15-30 seconds of calibration on new hardware. The architecture uses a transformer decoder with continuous action-token prediction, maintaining sub-millimeter precision.</p><p>In benchmarks, Skild Brain achieves 73 percent success on 500 novel tasks across 50 unseen robot platforms, vs 53 percent for robot-specific policies and 31 percent for GPT-4o-based controllers.</p><h2>Data Flywheel</h2><p>Skild charges  per robot per month with a data-sharing commitment. Early customers include Amazon Robotics, Boston Dynamics, Unitree, and Zhiyuan. The Amazon deal covers 15,000 warehouse robots, the largest robot foundation model deployment in history.</p><h2>Industry Impact</h2><p>A universal robot brain eliminates the need for custom control software for each platform. The value in robotics shifts from software to data. Skild Brain 2.0 with 1.2 trillion parameters is already in training.</p>"
+  },
+  "zh": {
+    "title": "Skild AI 发布通用机器人大脑",
+    "summary": "Skild AI 推出 Skild Brain 1.0，基于 10,000 台机器人训练的通用基础模型。",
+    "keywords": "Skild AI, 机器人基础模型, 通用机器人, 具身智能",
+    "imageAlt": "Skild AI 机器人基础模型",
+    "body": "<p>2026 年 6 月，Skild AI 发布了 Skild Brain 1.0，一个能在无需重新训练的情况下控制任意机器人的单一 AI 模型。</p><h2>巨大赌注</h2><p>该模型在 12,000 块 NVIDIA H200 GPU 上训练五个月，数据集包含 28 亿条真实机器人轨迹，来自 10,000 台机器人、200 多种硬件平台。</p><h2>工作原理</h2><p>Skild Brain 作为共享表示层将任务描述转为与硬件无关的动作令牌，仅需 15-30 秒校准即可部署到新硬件上。在基准测试中，它在 50 种未知平台的 500 项任务上取得 73% 成功率。</p><h2>数据飞轮</h2><p>每台机器人每月收费 500 美元，客户需共享数据。早期客户包括 Amazon Robotics、Boston Dynamics、宇树科技和智元。</p><h2>行业影响</h2><p>通用机器人大脑消除了为每个平台开发定制控制软件的需求，将价值从软件转向数据。Skild Brain 2.0（1.2 万亿参数）已在训练中。</p>"
+  }
+}

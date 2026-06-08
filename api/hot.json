@@ -2,7 +2,7 @@
   "site": "Robot D",
   "url": "https://robotd.net",
   "updated": "2026-06-08",
-  "total": 34,
+  "total": 35,
   "articles": [
     {
       "slug": "global-robotaxi-tipping-point-2026",
@@ -17,6 +17,21 @@
       "zh": {
         "title": "自动驾驶出租车临界点已至：2026年6月，无人出行全球化的真正开端",
         "summary": "英伟达、Waymo、特斯拉和中国玩家同时加速全球Robotaxi部署。2026年6月标志着行业从“证明自动驾驶可行”转向“证明自动驾驶可规模化”。本文从技术、资本、政策和竞争格局四个维度解析这一历史性时刻。"
+      }
+    },
+    {
+      "slug": "skild-ai-foundation-model-2026",
+      "date": "2026-06-08",
+      "category": "ai-robotics",
+      "featured": false,
+      "url": "https://robotd.net/article/skild-ai-foundation-model-2026/",
+      "en": {
+        "title": "Skild AI Unleashes the First Universal Robot Brain",
+        "summary": "Skild AI launches Skild Brain 1.0, a 500-billion-parameter robot foundation model trained on 10,000 robots."
+      },
+      "zh": {
+        "title": "Skild AI 发布通用机器人大脑",
+        "summary": "Skild AI 推出 Skild Brain 1.0，基于 10,000 台机器人训练的通用基础模型。"
       }
     },
     {
