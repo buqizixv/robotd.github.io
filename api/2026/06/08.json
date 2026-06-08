@@ -23,15 +23,15 @@
       "slug": "skild-ai-foundation-model-2026",
       "date": "2026-06-08",
       "category": "ai-robotics",
-      "featured": false,
+      "featured": true,
       "url": "https://robotd.net/article/skild-ai-foundation-model-2026/",
       "en": {
         "title": "Skild AI Unleashes the First Universal Robot Brain",
-        "summary": "Skild AI launches Skild Brain 1.0, a 500-billion-parameter robot foundation model trained on 10,000 robots."
+        "summary": "Skild AI launches Skild Brain 1.0, a 500-billion-parameter robot foundation model trained on 10,000 robots across 200 hardware platforms — and it works on robots it has never seen before."
       },
       "zh": {
-        "title": "Skild AI 发布通用机器人大脑",
-        "summary": "Skild AI 推出 Skild Brain 1.0，基于 10,000 台机器人训练的通用基础模型。"
+        "title": "Skild AI 发布通用机器人大脑：5000亿参数的具身智能里程碑",
+        "summary": "Skild AI 推出 Skild Brain 1.0，基于 10,000 台机器人、200 多种硬件平台的真实数据训练，无需针对新机器人微调即可直接部署。"
       }
     }
   ]

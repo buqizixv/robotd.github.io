@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE_URL = 'https://robotd.net';
 const SITE_NAME = 'Robot D';
-const V = '38';
+const V = '40';
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -215,7 +215,7 @@ const homeDesc = 'Tracking every breakthrough in humanoid robots, industrial aut
 let home = head(homeTitle, homeDesc, BASE_URL + '/', jsonLd('website'), '', '');
 home += shell('<section class="hero"><div class="hero-content"><div class="hero-text"><h1>Your Daily Pulse on Robotics & AI — Robot D</h1>' +
   '<p class="hero-sub">Tracking every breakthrough in humanoid robots, industrial automation, drone delivery, and AI-powered machines. Updated weekly.</p>' +
-  '<div class="hero-stats"><span class="hero-stat"><strong>33</strong> Articles</span><span class="hero-stat"><strong>7</strong> Categories</span><span class="hero-stat"><strong>Bilingual</strong> EN / 中文</span></div>' +
+  '<div class="hero-stats"><span class="hero-stat">' + '<strong>' + articles.length + '</strong> Articles' + '</span><span class="hero-stat"><strong>7</strong> Categories</span><span class="hero-stat"><strong>Bilingual</strong> EN / 中文</span></div>' +
   '<div class="hero-search"><input type="text" id="search-input" class="search-input" placeholder="Search articles..." autocomplete="off"></div></div><div class="hero-logo"><div class="hero-dot"></div><div class="hero-dot"></div><div class="hero-dot"></div><div class="hero-dot"></div></div></div></section>' +
   '<main class="main-content"><div class="home-layout"><div class="main-col">' +
   catTabHtml('all', 'en') +
@@ -339,3 +339,5 @@ fs.readdirSync(imgDir).forEach(f => {
   console.log('  ' + kb + ' KB  ' + f + warn);
 });
 console.log('\nDone. ' + count + ' pages generated.');
+
+
