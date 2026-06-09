@@ -1,5 +1,20 @@
 const SITE_NAME="Robot D",SITE_TAGLINE_EN="Your Daily Pulse on Robotics & AI",SITE_TAGLINE_ZH="机器人每日快讯",CATEGORIES=[{"slug":"all","en":"All Articles","zh":"全部文章","icon":""},{"slug":"humanoid","en":"Humanoid Robots","zh":"人形机器人","icon":"images/icon-humanoid.svg"},{"slug":"industrial","en":"Industrial Automation","zh":"工业自动化","icon":"images/icon-industrial.svg"},{"slug":"ai-robotics","en":"AI & Robotics","zh":"AI与机器人","icon":"images/icon-ai-robotics.svg"},{"slug":"drones","en":"Drones & UAVs","zh":"无人机","icon":"images/icon-drones.svg"},{"slug":"medical","en":"Medical Robotics","zh":"医疗机器人","icon":"images/icon-medical.svg"},{"slug":"research","en":"Research & Breakthroughs","zh":"研究突破","icon":"images/icon-research.svg"}],ARTICLE_MANIFEST=[
   {
+    slug: "neoVerse-abot-world-model-icra-2026",
+    date: "2026-06-09",
+    category: "ai-robotics",
+    featured: false,
+    en: {
+      title: "The Robot That Thinks Before It Acts: How NeoVerse-ABot Solved Action Hallucination at ICRA 2026",
+      summary: "The Chinese Academy of Sciences' NeoVerse-ABot team won the World Model track at ICRA 2026 with a 0.829 score, solving the 'action hallucination' problem that plagued robot world models — enabling robots to simulate physical outcomes in their 'mind' before acting."
+    },
+    zh: {
+      title: "先想后动：中科院 NeoVerse-ABot 破解机器人「动作幻觉」难题，夺 ICRA 2026 世界模型冠军",
+      summary: "中国科学院自动化研究所 NeoVerse-ABot 团队在 ICRA 2026 世界模型赛道以 0.829 分夺冠，526 支队伍中排名第一。核心突破是解决了机器人世界模型的「动作幻觉」问题——让机器人能在行动前在「脑海」中准确推演物理结果。"
+    }
+  },
+
+  {
     slug: "global-robotaxi-tipping-point-2026",
     date: "2026-06-08",
     category: "ai-robotics",

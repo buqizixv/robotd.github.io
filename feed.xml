@@ -5,9 +5,18 @@
   <link href="https://robotd.net/feed.xml" rel="self"/>
   <link href="https://robotd.net"/>
   <id>https://robotd.net/</id>
-  <updated>2026-06-08T11:35:20.348Z</updated>
+  <updated>2026-06-09T03:48:22.198Z</updated>
   <author><name>Robot D</name></author>
   <generator>Robot D Static Site Generator</generator>
+  <entry>
+    <title>The Robot That Thinks Before It Acts: How NeoVerse-ABot Solved Action Hallucination at ICRA 2026</title>
+    <link href="https://robotd.net/article/neoVerse-abot-world-model-icra-2026/"/>
+    <id>https://robotd.net/article/neoVerse-abot-world-model-icra-2026/</id>
+    <published>2026-06-09T00:00:00Z</published>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <summary>On June 5, 2026, at the IEEE International Conference on Robotics and Automation (ICRA 2026) in Vienna, a team from the Chinese Academy of Sciences (CAS) quietly solved one of the most stubborn problems in robot learning: the hallucination problem. Their model, NeoVerse-ABot, scored 0.829 on the World Model track of the AGIBOT WORLD CHALLENGE — first place out of 526 teams from 27 countries — and ...</summary>
+    <category term="ai-robotics" label="AI & Robotics"/>
+  </entry>
   <entry>
     <title>The Robotaxi Tipping Point: Why June 2026 Is When Autonomous Mobility Went Global</title>
     <link href="https://robotd.net/article/global-robotaxi-tipping-point-2026/"/>
@@ -313,14 +322,5 @@
     <updated>2026-03-14T00:00:00Z</updated>
     <summary>DJI, the Shenzhen-based company that dominates the global drone market, has released the third generation of its autonomous drone docking station, the DJI Dock 3. The product category — &apos;drone-in-a-box&apos; — represents a fundamental shift in how drones are used for commercial applications. Instead of requiring a human pilot to travel to a site, set up the drone, swap batteries, and manually offload d...</summary>
     <category term="drones" label="Drones & UAVs"/>
-  </entry>
-  <entry>
-    <title>Boston Dynamics&apos; All-Electric Atlas Shows Stunning Agility in First Production-Ready Demos</title>
-    <link href="https://robotd.net/article/boston-dynamics-atlas-electric-update/"/>
-    <id>https://robotd.net/article/boston-dynamics-atlas-electric-update/</id>
-    <published>2026-02-20T00:00:00Z</published>
-    <updated>2026-02-20T00:00:00Z</updated>
-    <summary>When Boston Dynamics retired the hydraulic Atlas in early 2024, then unveiled an all-electric successor just 24 hours later, the robotics world was stunned — first by the retirement of the most famous humanoid robot in existence, then by the audacity of immediately replacing it. But the initial electric Atlas reveal showed only a brief, carefully choreographed stand-up sequence. For two years, the...</summary>
-    <category term="research" label="Research & Breakthroughs"/>
   </entry>
 </feed>

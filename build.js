@@ -12,7 +12,7 @@ const path = require('path');
 
 const BASE_URL = 'https://robotd.net';
 const SITE_NAME = 'Robot D';
-const V = '40';
+const V = '41';
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

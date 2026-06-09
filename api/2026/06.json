@@ -1,9 +1,24 @@
 {
   "site": "Robot D",
   "url": "https://robotd.net",
-  "updated": "2026-06-08",
-  "total": 12,
+  "updated": "2026-06-09",
+  "total": 13,
   "articles": [
+    {
+      "slug": "neoVerse-abot-world-model-icra-2026",
+      "date": "2026-06-09",
+      "category": "ai-robotics",
+      "featured": false,
+      "url": "https://robotd.net/article/neoVerse-abot-world-model-icra-2026/",
+      "en": {
+        "title": "The Robot That Thinks Before It Acts: How NeoVerse-ABot Solved Action Hallucination at ICRA 2026",
+        "summary": "The Chinese Academy of Sciences' NeoVerse-ABot team won the World Model track at ICRA 2026 with a 0.829 score, solving the 'action hallucination' problem that plagued robot world models — enabling robots to simulate physical outcomes in their 'mind' before acting."
+      },
+      "zh": {
+        "title": "先想后动：中科院 NeoVerse-ABot 破解机器人「动作幻觉」难题，夺 ICRA 2026 世界模型冠军",
+        "summary": "中国科学院自动化研究所 NeoVerse-ABot 团队在 ICRA 2026 世界模型赛道以 0.829 分夺冠，526 支队伍中排名第一。核心突破是解决了机器人世界模型的「动作幻觉」问题——让机器人能在行动前在「脑海」中准确推演物理结果。"
+      }
+    },
     {
       "slug": "global-robotaxi-tipping-point-2026",
       "date": "2026-06-08",
