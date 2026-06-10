@@ -1,9 +1,24 @@
 {
   "site": "Robot D",
   "url": "https://robotd.net",
-  "updated": "2026-06-09",
-  "total": 1,
+  "updated": "2026-06-10",
+  "total": 2,
   "articles": [
+    {
+      "slug": "intercontinental-telesurgery-cilr-2026",
+      "date": "2026-06-04",
+      "category": "medical",
+      "featured": true,
+      "url": "https://robotd.net/article/intercontinental-telesurgery-cilr-2026/",
+      "en": {
+        "title": "Rome Surgeon Operates on Beijing Patient: The 8,200-km Telesurgery That Just Redefined What's Possible",
+        "summary": "A Chinese surgical team completed the world's first intercontinental remote tumor thrombectomy with IVC reconstruction — surgeon in Rome, patient 8,200 km away in Beijing, 143ms latency — at CILR 2026."
+      },
+      "zh": {
+        "title": "罗马医生给北京患者开刀：8200公里的手术刀，切开了远程医疗的天花板",
+        "summary": "中国手术团队在CILR 2026完成全球首例跨洲际远程癌栓取出加下腔静脉重建术——主刀医生在罗马，患者在北京，系统延迟143毫秒，张旭院士团队连续第三年创造历史。"
+      }
+    },
     {
       "slug": "nvidia-cosmos-3-2026",
       "date": "2026-06-04",

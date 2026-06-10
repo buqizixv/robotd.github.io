@@ -5,7 +5,7 @@
   <link href="https://robotd.net/feed.xml" rel="self"/>
   <link href="https://robotd.net"/>
   <id>https://robotd.net/</id>
-  <updated>2026-06-09T03:48:22.198Z</updated>
+  <updated>2026-06-10T09:22:39.501Z</updated>
   <author><name>Robot D</name></author>
   <generator>Robot D Static Site Generator</generator>
   <entry>
@@ -79,6 +79,15 @@
     <updated>2026-06-05T00:00:00Z</updated>
     <summary>A six-legged robot loses function in one of its leg actuators. The controller it had been using — a neural network trained for hours in simulation — has no provision for this failure mode. The robot is unbalanced, one corner dragging, its symmetrical tripod gait broken. Eleven minutes later, it is walking again. Not limping. Not compensating by dragging the damaged leg. Walking — forward, stable, ...</summary>
     <category term="research" label="Research & Breakthroughs"/>
+  </entry>
+  <entry>
+    <title>Rome Surgeon Operates on Beijing Patient: The 8,200-km Telesurgery That Just Redefined What&apos;s Possible</title>
+    <link href="https://robotd.net/article/intercontinental-telesurgery-cilr-2026/"/>
+    <id>https://robotd.net/article/intercontinental-telesurgery-cilr-2026/</id>
+    <published>2026-06-04T00:00:00Z</published>
+    <updated>2026-06-04T00:00:00Z</updated>
+    <summary>On June 4, 2026, in a packed auditorium in Rome, a surgeon sat at a console and began operating. Nothing unusual — except the patient was 8,200 kilometers away in Beijing. The procedure: removal of a tumor thrombus from the inferior vena cava, one of urology&apos;s most unforgiving operations. The audience of over 1,000 surgeons from 60 countries watched in silence as robotic arms moved across two cont...</summary>
+    <category term="medical" label="Medical Robotics"/>
   </entry>
   <entry>
     <title>The Omnimodel Is Here: Inside NVIDIA Cosmos 3, the Open Foundation for Physical AI</title>
@@ -312,15 +321,6 @@
     <published>2026-03-28T00:00:00Z</published>
     <updated>2026-03-28T00:00:00Z</updated>
     <summary>Zipline, the drone delivery company that built its reputation delivering blood and medical supplies in Rwanda and Ghana, is bringing its technology home to America at unprecedented scale. On March 25, 2026, Zipline announced plans to expand its US operations to 50 metropolitan areas by the end of 2026, backed by a new FAA regulatory framework for beyond-visual-line-of-sight (BVLOS) drone operation...</summary>
-    <category term="drones" label="Drones & UAVs"/>
-  </entry>
-  <entry>
-    <title>DJI Dock 3: The Autonomous Drone-in-a-Box That Runs 24/7 Without Human Intervention</title>
-    <link href="https://robotd.net/article/dji-dock-3/"/>
-    <id>https://robotd.net/article/dji-dock-3/</id>
-    <published>2026-03-14T00:00:00Z</published>
-    <updated>2026-03-14T00:00:00Z</updated>
-    <summary>DJI, the Shenzhen-based company that dominates the global drone market, has released the third generation of its autonomous drone docking station, the DJI Dock 3. The product category — &apos;drone-in-a-box&apos; — represents a fundamental shift in how drones are used for commercial applications. Instead of requiring a human pilot to travel to a site, set up the drone, swap batteries, and manually offload d...</summary>
     <category term="drones" label="Drones & UAVs"/>
   </entry>
 </feed>
