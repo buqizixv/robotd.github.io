@@ -1,4 +1,46 @@
 const SITE_NAME="Robot D",SITE_TAGLINE_EN="Your Daily Pulse on Robotics & AI",SITE_TAGLINE_ZH="机器人每日快讯",CATEGORIES=[{"slug":"all","en":"All Articles","zh":"全部文章","icon":""},{"slug":"humanoid","en":"Humanoid Robots","zh":"人形机器人","icon":"images/icon-humanoid.svg"},{"slug":"industrial","en":"Industrial Automation","zh":"工业自动化","icon":"images/icon-industrial.svg"},{"slug":"ai-robotics","en":"AI & Robotics","zh":"AI与机器人","icon":"images/icon-ai-robotics.svg"},{"slug":"drones","en":"Drones & UAVs","zh":"无人机","icon":"images/icon-drones.svg"},{"slug":"medical","en":"Medical Robotics","zh":"医疗机器人","icon":"images/icon-medical.svg"},{"slug":"research","en":"Research & Breakthroughs","zh":"研究突破","icon":"images/icon-research.svg"}],ARTICLE_MANIFEST=[
+{
+  slug: "squirreldrone-bioinspired-morphing-2026",
+  date: "2026-06-10",
+  category: "drones",
+  featured: false,
+  image: "",
+  en: {
+    title: "The Squirrel That Taught a Drone to Fly: TU Delft Abandons Bird Logic for a Whole-Body Morphing Breakthrough",
+    summary: "TU Delft researchers published a Nature Communications paper introducing the SquirrelDrone, a bio-inspired flying robot that uses whole-body morphing — reshaping limbs, spine, tail, and membrane mid-flight — to achieve unprecedented agility, stability, and maneuverability.",
+    keywords: "SquirrelDrone, TU Delft, flying squirrel, bio-inspired drone, whole-body morphing, Nature Communications, Salua Hamaza, Liming Zheng, morphing aircraft, drone agility",
+    imageAlt: "The SquirrelDrone, a bio-inspired morphing drone with four limbs and a flexible membrane, in flight against a clear sky"
+  },
+  zh: {
+    title: "当无人机学会「变全身」：荷兰科学家扔掉鸟类的说明书，从飞鼠身上找到了飞行新逻辑",
+    summary: "代尔夫特理工大学在《自然·通讯》发表松鼠无人机（SquirrelDrone）——全球首款通过全身变形（四肢、脊柱、尾巴、柔性膜）实现飞行的仿生无人机，在敏捷性、机动性和稳定性上均取得突破性提升。这或许意味着，四十年来「向鸟学飞」的无人机设计路线，第一次遇到了真正的挑战者。",
+    keywords: "松鼠无人机, SquirrelDrone, 代尔夫特理工大学, 飞鼠仿生, 全身变形, Nature Communications, Salua Hamaza, 郑黎明, 变形飞行器, 无人机敏捷性",
+    imageAlt: "松鼠无人机在蓝天中飞行，四个肢体伸展，柔性膜展开"
+  }
+},
+{
+  slug: "intercontinental-telesurgery-cilr-2026",
+  date: "2026-06-04",
+  category: "medical",
+  featured: true,
+  image: "",
+  en: {
+    title: "Rome Surgeon Operates on Beijing Patient: The 8,200-km Telesurgery That Just Redefined What's Possible",
+    summary: "A Chinese surgical team completed the world's first intercontinental remote tumor thrombectomy with IVC reconstruction — surgeon in Rome, patient 8,200 km away in Beijing, 143ms latency — at CILR 2026.",
+    keywords: "telesurgery, remote surgery, CILR 2026, Edge Medical, robotic surgery, IVC tumor thrombectomy, Zhang Xu, Qingbo Huang, intercontinental surgery, surgical robot, telemedicine",
+    imageAlt: "Professor Huang Qingbo operating a robotic surgical console in Rome while the patient lies on an operating table in Beijing",
+    imageCredit: "",
+    body: "<p>On June 4, 2026, in a packed auditorium in Rome, a surgeon sat at a console and began operating. Nothing unusual — except the patient was 8,200 kilometers away in Beijing. The procedure: removal of a tumor thrombus from the inferior vena cava, one of urology's most unforgiving operations. The audience of over 1,000 surgeons from 60 countries watched in silence as robotic arms moved across two continents in near-perfect synchrony. No one in the room had ever seen anything like it. Because no one had.</p><p>This was the 22nd Congress of Laparoscopic and Robotic Surgery Challenges and Artificial Intelligence — CILR 2026. And what happened on that stage wasn't a demonstration. It was a live human surgery, broadcast in real time, with a patient's life on the line and the global urology community as witness.</p><h2>The Surgeon, the Machine, and 20,000 Kilometers of Fiber</h2><p>Professor Huang Qingbo of the Chinese PLA General Hospital sat at the console in Rome's Regina Elena National Cancer Institute. Across the Eurasian landmass, in a Beijing operating room, the Edge Medical surgical robot — developed by the Shenzhen-based company Jingfeng Medical — translated every movement of his hands into precise instrument motion. The bidirectional communication path spanned more than 20,000 kilometers. System latency: approximately 143 milliseconds.</p><p>That number — 143 milliseconds — is the difference between a telesurgery that works and one that doesn't. Below roughly 200ms, a surgeon can compensate intuitively. Above it, the lag becomes dangerous. Two years ago, the same team achieved what was then a breakthrough: 130ms on a Rome-to-Beijing link. The fact that they've now repeatedly operated within this window, on progressively harder cases, tells you the technology has crossed from experimental to operational.</p><h2>Why IVC Tumor Thrombectomy Is the Mount Everest of Urology</h2><p>Renal cell carcinoma with inferior vena cava tumor thrombus is not just a kidney cancer. It's a cancer that has grown a tendril into the body's largest vein, stretching toward the heart. Removing it means clamping the vena cava, extracting the thrombus, and reconstructing the vessel wall — all within a finite window before organs downstream start suffering from blocked blood flow. The IVC sits next to the liver, pancreas, and duodenum. One wrong move and the patient can bleed out in minutes.</p><p>Doing this procedure robotically is already considered the pinnacle of urologic surgery. Doing it remotely, with the surgeon on another continent, had never been attempted. The fact that it succeeded — under live broadcast, with no safety net — is a statement about the maturity of both the surgical team and the robotic platform.</p><h2>Three Years, Three World Firsts</h2><p>This wasn't a one-off stroke of luck. Academician Zhang Xu's team at PLA General Hospital has now made history at CILR for three consecutive years. In 2024, they performed the world's first intercontinental ultra-remote human surgery — proving the concept was feasible. In 2025, Professor Ma Xin completed a live robot-assisted IVC tumor thrombectomy combined with radical left nephrectomy — proving it was practical for complex cases. Now, 2026, they've taken on the hardest challenge in the book: an intercontinental remote tumor thrombectomy with IVC reconstruction.</p><p>The trajectory is clear. From \"can we connect the machines?\" to \"can we handle real pathology?\" to \"can we tackle the single hardest procedure in urology?\" — and the answer at every step has been yes. This is what technology adoption curves look like when the engineering is sound and the clinical team knows exactly what they're doing.</p><h2>The Robot Behind the Headlines</h2><p>Edge Medical's surgical robot is not a household name like the da Vinci system, but it's carving out a distinct identity in remote surgery. The Edge Cloud telesurgery platform handles the data pipeline — video, haptic feedback, instrument control — across intercontinental distances with enough reliability that surgeons are willing to stake their reputations on live broadcasts. That's a level of trust no white paper can manufacture.</p><p>The CILR conference itself ran seven robotic platforms simultaneously, completing 40 live surgeries over three days. Edge wasn't the only robot in the room, but it was the one attempting — and pulling off — the hardest assignment.</p><h2>What This Means for the Next Decade</h2><p>Remote surgery has been a promise for twenty years. The barriers were always the same: latency, reliability, bandwidth, cost, regulation. CILR 2026 showed that at least three of those — latency, reliability, bandwidth — are now solved well enough for the most complex procedures. The remaining two — cost and regulation — are policy problems, not physics problems.</p><p>The implications go beyond urology. If a surgeon in Rome can operate on a patient in Beijing, then a specialist in Boston can assist a trauma case in rural Montana. A neurosurgeon in Tokyo can guide a procedure in Jakarta. The geography of surgical expertise becomes irrelevant. What matters is whether the fiber connection is good enough — and for increasingly many places on Earth, it is.</p><p>The CILR audience understood what they were watching. This wasn't just a record-setting surgery. It was a glimpse of a future where the phrase \"the best surgeon for this procedure\" doesn't end with \"but they're on the other side of the world.\"</p>"
+  },
+  zh: {
+    title: "罗马医生给北京患者开刀：8200公里的手术刀，切开了远程医疗的天花板",
+    summary: "中国手术团队在CILR 2026完成全球首例跨洲际远程癌栓取出加下腔静脉重建术——主刀医生在罗马，患者在北京，系统延迟143毫秒，张旭院士团队连续第三年创造历史。",
+    keywords: "远程手术, 机器人手术, CILR 2026, 精锋医疗, 癌栓取出, 下腔静脉重建, 张旭, 黄庆波, 跨洲手术, 手术机器人, 远程医疗",
+    imageAlt: "黄庆波教授在罗马操控手术机器人控制台，患者躺在北京的手术台上",
+    imageCredit: "",
+    body: "<p>手术室里没有主刀医生。</p><p>2026年6月4日下午，罗马。第22届腹腔镜、机器人及人工智能挑战大会（CILR）的主会场座无虚席。台上有一张控制台，台前坐着一位中国医生——解放军总医院的黄庆波教授。台下，来自60多个国家的1000多名泌尿外科医生屏息注视大屏幕。屏幕上显示的，是8200公里外北京某手术室内的实时画面：一名肾癌患者静卧台上，肿瘤已经顺着肾静脉爬进了下腔静脉，像一条危险的藤蔓伸向心脏。</p><p>黄庆波的手开始移动。北京手术室里的精锋手术机器人应声而动。没有延迟，没有抖动，没有意外。两个小时之后，癌栓取出，下腔静脉重建完毕。会场爆发出掌声。全球首例跨洲际远程癌栓取出加下腔静脉重建术，成了。</p><h2>一场手术，三条命脉</h2><p>肾癌伴下腔静脉癌栓，在泌尿外科被称为「皇冠上的明珠」——换个说法，就是最难的那一类。它不是你切掉一个肾就完事。癌栓顺着人体最大的静脉往上爬，你必须截断下腔静脉、精准剥离癌栓、再重建血管壁。而旁边紧挨着肝、胰腺、十二指肠。手术窗口极短——一旦血管阻断，下游器官就在倒计时。稍有差池，病人可能几分钟内失血致死。</p><p>用机器人做这个手术，已经是顶尖泌尿外科团队的看家本事。隔着8200公里做——此前没人试过。黄庆波敢在CILR的全球直播中做这台手术，不是胆子大，是底气足。</p><h2>143毫秒，一个被反复验证的数字</h2><p>远程手术的核心难题永远是延迟。人的神经系统本身就有约100毫秒的传导延迟，所以外科医生对200毫秒以内的操作滞后是可以直觉补偿的。超过这个阈值，手感就不对了。两年前，张旭团队首次实现罗马到北京的远程手术时，系统延迟约130毫秒——那已经是当时全球远程手术的最低记录。今年的手术，精锋云远程手术系统将延迟控制在143毫秒左右，双向通信距离超过2万公里。</p><p>143毫秒是什么概念？你眨一下眼大概需要300毫秒。也就是说，把指令从罗马发到北京、让机器臂做出动作、再把视频传回罗马——这整个来回，还不够你眨半次眼。</p><h2>三年，三级跳</h2><p>CILR被业内称为「机器人泌尿外科的超级碗」。能在这个舞台上做直播手术，意味着你的团队、你的机器人、你的通信系统必须经得起全球同行的实时审视——没有任何犯错空间，全世界盯着你看。</p><p>张旭院士的团队已经连续三年在这个舞台上创造历史。2024年，全球首例跨洲超远程人体手术——证明「远程可行」。2025年，马鑫教授完成机器人辅助IVC癌栓取出加左肾根治性切除术的全球直播——证明「复杂病例也可行」。2026年，黄庆波教授挑战跨洲远程癌栓加下腔静脉重建——证明「最难的手术也行」。三级跳，每一步都在推高远程手术的天花板。</p><h2>机器人不是噱头，是答案</h2><p>精锋医疗的手术机器人名气不如达芬奇系统大，但在远程手术这个垂直赛道上，它正在建立自己的护城河。精锋云远程手术系统承担的不是简单的视频传输，而是视频、触觉反馈、器械控制三条数据流的同步压缩与传输，在洲际光纤上来回跑。一个外科医生愿意在CILR全球直播中把自己的声誉押在这个系统上——这种级别的信任，不是白皮书和论文能建立的。</p><p>CILR 2026共动用了7个机器人平台，三天完成了40台直播手术。精锋不是唯一的机器人，但它承担的是最难的那一台。</p><h2>远程手术的「最后一公里」不是技术</h2><p>远程手术被讨论了二十年。二十年里，挡路的水远是那几样：延迟、可靠性、带宽、成本、监管。CILR 2026传递的信号很明确——前三个已经解决了，至少解决到了能应对最高难度手术的程度。剩下来的成本问题是个规模问题，监管问题是个政策问题。都不是物理定律的限制。</p><p>这意味着什么？如果一个罗马的医生能为北京的患者做手术，那么上海三甲医院的专家就能为甘肃县城的患者做手术。波士顿的神经外科医生能为蒙大拿乡村的创伤病人提供术中指导。东京的专家能为雅加达的手术室做远程协作。手术专长的地理边界正在消失。唯一需要问的问题是：光纤够不够好？而对地球上越来越多的地方来说，答案是：够了。</p><p>那天在罗马坐着的1000多位外科医生，看到的不仅是一台创纪录的手术。他们看到的，是一个不再需要把「最好的医生」和「隔着一片海」放在同一句话里的未来。</p>"
+  }
+},
   {
     slug: "neoVerse-abot-world-model-icra-2026",
     date: "2026-06-09",
@@ -13,7 +55,6 @@ const SITE_NAME="Robot D",SITE_TAGLINE_EN="Your Daily Pulse on Robotics & AI",SI
       summary: "中国科学院自动化研究所 NeoVerse-ABot 团队在 ICRA 2026 世界模型赛道以 0.829 分夺冠，526 支队伍中排名第一。核心突破是解决了机器人世界模型的「动作幻觉」问题——让机器人能在行动前在「脑海」中准确推演物理结果。"
     }
   },
-
   {
     slug: "global-robotaxi-tipping-point-2026",
     date: "2026-06-08",
@@ -464,49 +505,6 @@ const SITE_NAME="Robot D",SITE_TAGLINE_EN="Your Daily Pulse on Robotics & AI",SI
     zh: {
       title: "NVIDIA GR00T 平台向全球开发者开放：通用型机器人 AI 的民主化时刻",
       summary: "NVIDIA 向所有开发者开放 GR00T 机器人基础模型平台，提供基于云端的训练和部署流程，有望普及通用型机器人 AI 开发。"
-    }
-  },
-  {
-    slug: "zipline-drone-delivery-2026",
-    date: "2026-03-28",
-    category: "drones",
-    featured: false,
-    en: {
-      title: "Zipline Expands Drone Delivery to 50 US Cities, Launches Next-Gen Platform 3",
-      summary: "Zipline announces massive US expansion with its Platform 3 delivery drone system, promising 10-minute deliveries within a 30-mile radius across 50 metropolitan areas by year-end."
-    },
-    zh: {
-      title: "Zipline 将无人机配送拓展至 50 个美国城市，发布新一代 Platform 3 系统",
-      summary: "Zipline 宣布凭借其 Platform 3 配送无人机系统进行大规模美国扩张，承诺在年底前于 50 个大都市区实现 30 英里半径内 10 分钟送达。"
-    }
-  },
-  {
-    slug: "dji-dock-3",
-    date: "2026-03-14",
-    category: "drones",
-    featured: false,
-    en: {
-      title: "DJI Dock 3: The Autonomous Drone-in-a-Box That Runs 24/7 Without Human Intervention",
-      summary: "DJI's third-generation drone dock enables fully autonomous drone operations for industrial inspection, security, and agriculture — charging, data upload, and mission planning all happen without a human on site."
-    },
-    zh: {
-      title: "DJI Dock 3：全天候无人值守的自主无人机机库发布",
-      summary: "大疆创新发布第三代无人机机库，实现工业巡检、安防和农业领域的全自主无人机运营——充电、数据上传、任务规划全部无需人员到场。"
-    }
-  },
-  {
-    slug: "boston-dynamics-atlas-electric-update",
-    date: "2026-02-20",
-    category: "research",
-    featured: false,
-    image: "image/boston-dynamics-atlas-electric-2026.jpeg",
-    en: {
-      title: "Boston Dynamics' All-Electric Atlas Shows Stunning Agility in First Production-Ready Demos",
-      summary: "Boston Dynamics reveals production-ready electric Atlas performing parkour, heavy lifting, and autonomous factory work, proving the all-electric humanoid is ready for commercial deployment."
-    },
-    zh: {
-      title: "波士顿动力全电动 Atlas 展示惊人敏捷性：首个量产就绪演示发布",
-      summary: "波士顿动力发布量产就绪的电动 Atlas 跑酷、重物搬运和自主工厂作业演示视频，证明全电动人形机器人已准备好商业部署。"
     }
   }
 ];

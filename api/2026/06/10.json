@@ -1,0 +1,23 @@
+{
+  "site": "Robot D",
+  "url": "https://robotd.net",
+  "updated": "2026-06-10",
+  "total": 1,
+  "articles": [
+    {
+      "slug": "squirreldrone-bioinspired-morphing-2026",
+      "date": "2026-06-10",
+      "category": "drones",
+      "featured": false,
+      "url": "https://robotd.net/article/squirreldrone-bioinspired-morphing-2026/",
+      "en": {
+        "title": "The Squirrel That Taught a Drone to Fly: TU Delft Abandons Bird Logic for a Whole-Body Morphing Breakthrough",
+        "summary": "TU Delft researchers published a Nature Communications paper introducing the SquirrelDrone, a bio-inspired flying robot that uses whole-body morphing — reshaping limbs, spine, tail, and membrane mid-flight — to achieve unprecedented agility, stability, and maneuverability."
+      },
+      "zh": {
+        "title": "当无人机学会「变全身」：荷兰科学家扔掉鸟类的说明书，从飞鼠身上找到了飞行新逻辑",
+        "summary": "代尔夫特理工大学在《自然·通讯》发表松鼠无人机（SquirrelDrone）——全球首款通过全身变形（四肢、脊柱、尾巴、柔性膜）实现飞行的仿生无人机，在敏捷性、机动性和稳定性上均取得突破性提升。这或许意味着，四十年来「向鸟学飞」的无人机设计路线，第一次遇到了真正的挑战者。"
+      }
+    }
+  ]
+}
